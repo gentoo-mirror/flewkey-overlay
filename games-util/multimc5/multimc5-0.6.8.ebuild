@@ -21,6 +21,7 @@ BDEPEND="
 	>=virtual/jdk-1.8:*
 	>=dev-util/cmake-3.1
 	dev-qt/qtcore
+	dev-qt/qtconcurrent
 	media-libs/mesa
 	sys-libs/zlib
 "
