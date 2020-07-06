@@ -1,7 +1,7 @@
 EAPI=7
 
 if [[ ${PV} != *9999* ]]; then
-	SRC_URI="https://files.2a03.party/~flewkey/distfiles/${P}.tar.gz"
+	SRC_URI="https://github.com/tlsa/libcyaml/archive/${PV}.tar.gz  -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
 else
 	inherit git-r3
