@@ -23,6 +23,9 @@ BDEPEND="
 	media-libs/lv2
 	x11-libs/redkite
 "
+PATCHES=(
+	"${FILESDIR}/fix_libdir.patch"
+)
 
 pkg_postinst() {
 	xdg_mimeinfo_database_update
