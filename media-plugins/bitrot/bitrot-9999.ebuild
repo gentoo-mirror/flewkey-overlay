@@ -4,7 +4,7 @@
 EAPI=6
 
 EGIT_REPO_URI="https://github.com/grejppi/bitrot.git"
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python2_7 python3_4 python3_5 python3_6 )
 PYTHON_REQ_USE="threads(+)"
 
 inherit git-r3 python-any-r1 waf-utils
