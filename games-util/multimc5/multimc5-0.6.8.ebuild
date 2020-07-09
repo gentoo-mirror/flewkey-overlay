@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 if [[ ${PV} != *9999* ]]; then
 	SRC_URI="https://files.2a03.party/~flewkey/distfiles/${P}.tar.gz"
@@ -34,5 +34,5 @@ src_configure() {
 		"-DCMAKE_INSTALL_PREFIX:PATH=/usr"
 		"-DMultiMC_LAYOUT:STRING=lin-system"
 	)
-	cmake-utils_src_configure
+	cmake_src_configure
 }

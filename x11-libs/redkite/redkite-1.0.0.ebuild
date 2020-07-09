@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 if [[ ${PV} != *9999* ]]; then
 	SRC_URI="https://github.com/iurie-sw/redkite/archive/v${PV}.tar.gz  -> ${P}.tar.gz"
