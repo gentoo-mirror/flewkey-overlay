@@ -25,4 +25,3 @@ src_install() {
 	emake -C src DESTDIR="${D}" install
 	einstalldocs
 }
-

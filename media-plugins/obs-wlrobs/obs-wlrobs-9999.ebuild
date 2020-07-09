@@ -33,7 +33,7 @@ BDEPEND="
 "
 
 src_configure() {
-	local emesonargs=(                                                         
+	local emesonargs=(
 		$(meson_use dmabuf use_dmabuf)
 		$(meson_use scpy use_scpy)
 	)
@@ -48,4 +48,3 @@ src_install() {
 	dodir ${install_path}
 	cp "${S}-build/libwlrobs.so" "${D}/${install_path}/libwlrobs.so" || die "Failed to install"
 }
-
