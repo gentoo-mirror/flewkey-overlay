@@ -35,3 +35,8 @@ src_configure() {
 	)
 	CFLAGS+=" -D_BSD_SOURCE" cmake_src_configure
 }
+
+src_install() {
+	cmake_src_install
+	mv "${D}/usr/lib" "${D}/usr/$(get_libdir)"
+}
