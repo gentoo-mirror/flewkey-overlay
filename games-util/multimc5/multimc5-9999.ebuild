@@ -3,15 +3,9 @@
 
 EAPI=7
 
-inherit cmake
+EGIT_REPO_URI="https://github.com/MultiMC/MultiMC5.git"
 
-if [[ ${PV} != *9999* ]]; then
-	SRC_URI="https://files.2a03.party/~flewkey/distfiles/${P}.tar.gz"
-	KEYWORDS="~amd64"
-else
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/MultiMC/MultiMC5.git"
-fi
+inherit git-r3 cmake
 
 DESCRIPTION="MultiMC Minecraft Launcher"
 HOMEPAGE="https://multimc.org/"

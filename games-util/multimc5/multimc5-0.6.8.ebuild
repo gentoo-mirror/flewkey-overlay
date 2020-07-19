@@ -5,13 +5,14 @@ EAPI=7
 
 inherit cmake
 
-if [[ ${PV} != *9999* ]]; then
-	SRC_URI="https://files.2a03.party/~flewkey/distfiles/${P}.tar.gz"
-	KEYWORDS="~amd64"
-else
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/MultiMC/MultiMC5.git"
-fi
+V_QUAZIP="multimc-3"
+V_LIBNBTPLUSPLUS="multimc-0.6.1"
+SRC_URI="
+	https://github.com/MultiMC/MultiMC5/archive/${PV}.tar.gz -> ${P}.tar.gz
+	https://github.com/MultiMC/quazip/archive/${V_QUAZIP}.tar.gz -> quazip-${V_QUAZIP}.tar.gz
+	https://github.com/MultiMC/libnbtplusplus/archive/${V_LIBNBTPLUSPLUS}.tar.gz -> libnbtplusplus-${V_LIBNBTPLUSPLUS}.tar.gz
+"
+KEYWORDS="~amd64"
 
 DESCRIPTION="MultiMC Minecraft Launcher"
 HOMEPAGE="https://multimc.org/"
@@ -28,6 +29,13 @@ BDEPEND="
 	media-libs/mesa
 	sys-libs/zlib
 "
+
+src_unpack() {
+	default
+	rm -rf "${S}/libraries/libnbtplusplus" "${S}/libraries/quazip" || die
+	cp -r "${WORKDIR}/quazip-${V_QUAZIP}" "${S}/libraries/quazip" || die
+	cp -r "${WORKDIR}/libnbtplusplus-${V_LIBNBTPLUSPLUS}" "${S}/libraries/libnbtplusplus" || die
+}
 
 src_configure() {
 	local mycmakeargs=(
