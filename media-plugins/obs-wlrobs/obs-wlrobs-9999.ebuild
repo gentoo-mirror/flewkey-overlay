@@ -3,15 +3,9 @@
 
 EAPI=7
 
-inherit meson
+EHG_REPO_URI="https://hg.sr.ht/~scoopta/wlrobs"
 
-if [[ ${PV} != *9999* ]]; then
-	SRC_URI="https://files.2a03.party/~flewkey/distfiles/${P}.tar.gz"
-	KEYWORDS="~amd64"
-else
-	inherit mercurial
-	EHG_REPO_URI="https://hg.sr.ht/~scoopta/wlrobs"
-fi
+inherit mercurial meson
 
 DESCRIPTION="Allows screen capture on wlroots-based Wayland compositors"
 HOMEPAGE="https://hg.sr.ht/~scoopta/wlrobs"
