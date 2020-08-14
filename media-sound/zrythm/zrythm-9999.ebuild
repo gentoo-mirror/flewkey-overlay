@@ -23,6 +23,7 @@ RDEPEND="${DEPEND}"
 BDEPEND="
 	app-arch/zstd
 	dev-libs/libcyaml
+	dev-libs/reproc
 	dev-scheme/guile
 	kde-frameworks/breeze-icons
 	media-libs/lilv
