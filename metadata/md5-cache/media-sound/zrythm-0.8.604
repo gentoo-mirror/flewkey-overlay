@@ -1,0 +1,11 @@
+BDEPEND=app-arch/zstd dev-libs/libcyaml dev-scheme/guile kde-frameworks/breeze-icons media-libs/lilv media-libs/libaudec media-libs/chromaprint media-libs/rubberband sci-libs/fftw x11-libs/gtk+ x11-libs/gtksourceview >=dev-util/meson-0.54.0 >=dev-util/ninja-1.8.2
+DEFINED_PHASES=compile configure install postinst postrm test
+DESCRIPTION=Zrythm is a digital audio workstation designed to be featureful and easy to use.
+EAPI=7
+HOMEPAGE=https://www.zrythm.org/
+KEYWORDS=~amd64
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://git.zrythm.org/cgit/zrythm/snapshot/zrythm-0.8.604.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	gnome2-utils	893e828f0f25f070f0b38d20c83c7670	meson	71d293a701d6362387e1214da368c848	multilib	2477ebe553d3e4d2c606191fe6c33602	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-utils-r1	bae936266b68e0c374a74f2b0d0aaa44	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=d8c59a4853d222f4af1d414806e6cd70

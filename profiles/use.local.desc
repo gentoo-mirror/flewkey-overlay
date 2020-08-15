@@ -1,0 +1,7 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+media-plugins/obs-wlrobs:dmabuf - Use the dmabuf backend
+media-plugins/obs-wlrobs:scpy - Use the scpy backend
+media-video/olive:frei0r - Use the frei0r effects library
