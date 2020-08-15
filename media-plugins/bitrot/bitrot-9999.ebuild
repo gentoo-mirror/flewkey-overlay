@@ -15,3 +15,8 @@ LICENSE="Apache-2.0"
 SLOT="0"
 
 DEPEND="${PYTHON_DEPS}"
+
+src_install() {
+	waf-utils_src_install
+	mv "${D}/usr/lib" "${D}/usr/$(get_libdir)"
+}
