@@ -17,9 +17,7 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE="system-freeverb3" # Enabling this breaks the build for now
 
-DEPEND="
-	x11-libs/libGLw
-"
+DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND="
 	system-freeverb3? ( media-libs/freeverb3 )
@@ -42,13 +40,13 @@ src_install() {
 	dobin bin/DragonflyHallReverb
 	dobin bin/DragonflyRoomReverb
 	dodir /usr/$(get_libdir)/vst
-	cp ${S}/bin/DragonflyEarlyReflections-vst.so ${D}/usr/$(get_libdir)/vst
-	cp ${S}/bin/DragonflyPlateReverb-vst.so ${D}/usr/$(get_libdir)/vst
-	cp ${S}/bin/DragonflyHallReverb-vst.so ${D}/usr/$(get_libdir)/vst
-	cp ${S}/bin/DragonflyRoomReverb-vst.so ${D}/usr/$(get_libdir)/vst
+	cp "${S}/bin/DragonflyEarlyReflections-vst.so" "${D}/usr/$(get_libdir)/vst"
+	cp "${S}/bin/DragonflyPlateReverb-vst.so" "${D}/usr/$(get_libdir)/vst"
+	cp "${S}/bin/DragonflyHallReverb-vst.so" "${D}/usr/$(get_libdir)/vst"
+	cp "${S}/bin/DragonflyRoomReverb-vst.so" "${D}/usr/$(get_libdir)/vst"
 	dodir /usr/$(get_libdir)/lv2
-	cp -r ${S}/bin/DragonflyEarlyReflections.lv2 ${D}/usr/$(get_libdir)/lv2
-	cp -r ${S}/bin/DragonflyPlateReverb.lv2 ${D}/usr/$(get_libdir)/lv2
-	cp -r ${S}/bin/DragonflyHallReverb.lv2 ${D}/usr/$(get_libdir)/lv2
-	cp -r ${S}/bin/DragonflyRoomReverb.lv2 ${D}/usr/$(get_libdir)/lv2
+	cp -r "${S}/bin/DragonflyEarlyReflections.lv2" "${D}/usr/$(get_libdir)/lv2"
+	cp -r "${S}/bin/DragonflyPlateReverb.lv2" "${D}/usr/$(get_libdir)/lv2"
+	cp -r "${S}/bin/DragonflyHallReverb.lv2" "${D}/usr/$(get_libdir)/lv2"
+	cp -r "${S}/bin/DragonflyRoomReverb.lv2" "${D}/usr/$(get_libdir)/lv2"
 }
