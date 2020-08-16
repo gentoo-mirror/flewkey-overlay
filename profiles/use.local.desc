@@ -2,6 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+media-plugins/dragonfly-reverb:system-freeverb3 - Use the system-wide media-libs/freeverb3 instead of bundled.
 media-plugins/obs-wlrobs:dmabuf - Use the dmabuf backend
 media-plugins/obs-wlrobs:scpy - Use the scpy backend
 media-video/olive:frei0r - Use the frei0r effects library
