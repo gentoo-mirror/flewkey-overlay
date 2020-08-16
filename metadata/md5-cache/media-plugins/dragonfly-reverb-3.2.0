@@ -1,0 +1,14 @@
+BDEPEND=system-freeverb3? ( media-libs/freeverb3 ) system-freeverb3? ( media-libs/libsamplerate ) virtual/jack x11-libs/libX11 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libGLw
+DESCRIPTION=A set of free reverb effects
+EAPI=7
+HOMEPAGE=https://michaelwillis.github.io/dragonfly-reverb/
+IUSE=system-freeverb3
+KEYWORDS=~amd64
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=x11-libs/libGLw
+SLOT=0
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_md5_=229ec0720287609fbd7f0fffbc283588

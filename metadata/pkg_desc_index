@@ -3,6 +3,7 @@ dev-libs/reproc 14.0.0 9999: A library for dealing with external processes
 games-util/multimc5 0.6.8 0.6.11 9999: MultiMC Minecraft Launcher
 media-libs/libaudec 0.2.2 9999: A library for reading and resampling audio files
 media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
+media-plugins/dragonfly-reverb 3.2.0 9999: A set of free reverb effects
 media-plugins/eq10q 2.2: Audio plugin bundle over the LV2 standard for Linux
 media-plugins/geonkick 2.2.3 9999: A free software percussion synthesizer
 media-plugins/obs-wlrobs 9999: Allows screen capture on wlroots-based Wayland compositors
