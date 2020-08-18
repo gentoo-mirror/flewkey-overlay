@@ -18,9 +18,7 @@ HOMEPAGE="https://www.zrythm.org/"
 LICENSE="GPL-3"
 SLOT="0"
 
-DEPEND=""
-RDEPEND="${DEPEND}"
-BDEPEND="
+DEPEND="
 	app-arch/zstd
 	dev-libs/libcyaml
 	dev-libs/reproc
@@ -30,10 +28,12 @@ BDEPEND="
 	media-libs/libaudec
 	media-libs/chromaprint
 	media-libs/rubberband
-	sci-libs/fftw
-	x11-libs/gtk+
-	x11-libs/gtksourceview
+	sci-libs/fftw:*
+	x11-libs/gtk+:3
+	x11-libs/gtksourceview:*
 "
+RDEPEND="${DEPEND}"
+BDEPEND=""
 
 src_install() {
 	DESTDIR="${D}" eninja -C "${BUILD_DIR}" install
