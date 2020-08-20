@@ -18,14 +18,14 @@ HOMEPAGE="https://github.com/iurie-sw/geonkick"
 LICENSE="GPL-3"
 SLOT="0"
 
-DEPEND=""
-RDEPEND="${DEPEND}"
-BDEPEND="
+DEPEND="
 	dev-libs/rapidjson
 	media-libs/libsndfile
 	media-libs/lv2
 	x11-libs/redkite
 "
+RDEPEND="${DEPEND}"
+BDEPEND=""
 
 pkg_postinst() {
 	xdg_mimeinfo_database_update
