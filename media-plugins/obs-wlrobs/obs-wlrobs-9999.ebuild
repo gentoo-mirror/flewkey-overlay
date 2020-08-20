@@ -13,17 +13,18 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE="dmabuf +scpy"
 
-DEPEND=""
-RDEPEND="${DEPEND}"
-BDEPEND="
+DEPEND="
 	dev-libs/wayland
 	media-video/obs-studio
-	virtual/pkgconfig
-	dev-util/meson
 	dmabuf? (
 		x11-libs/libdrm
 		virtual/opengl
 	)
+"
+RDEPEND="${DEPEND}"
+BDEPEND="
+	virtual/pkgconfig
+	dev-util/meson
 "
 
 src_configure() {
