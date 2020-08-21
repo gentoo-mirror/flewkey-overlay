@@ -5,7 +5,7 @@ media-libs/libaudec 0.2.2 9999: A library for reading and resampling audio files
 media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
 media-plugins/dragonfly-reverb 3.2.0 9999: A set of free reverb effects
 media-plugins/eq10q 2.2: Audio plugin bundle over the LV2 standard for Linux
-media-plugins/geonkick 2.2.3 9999: A free software percussion synthesizer
+media-plugins/geonkick 2.2.3 2.3.7 9999: A free software percussion synthesizer
 media-plugins/obs-wlrobs 9999: Allows screen capture on wlroots-based Wayland compositors
 media-plugins/remid 0.3 9999: A free software percussion synthesizer
 media-sound/zrythm 0.8.604 0.8.757 0.8.797 9999: Zrythm is a digital audio workstation designed to be featureful and easy to use.
