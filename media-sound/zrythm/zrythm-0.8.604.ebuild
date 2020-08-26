@@ -27,7 +27,7 @@ DEPEND="
 	media-libs/libaudec
 	media-libs/chromaprint
 	media-libs/rubberband
-	sci-libs/fftw:*
+	sci-libs/fftw:*[threads]
 	x11-libs/gtk+:3
 	x11-libs/gtksourceview:*
 "
