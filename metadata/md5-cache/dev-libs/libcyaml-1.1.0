@@ -5,5 +5,5 @@ HOMEPAGE=https://github.com/tlsa/libcyaml/
 KEYWORDS=~amd64
 LICENSE=ISC
 SLOT=0
-SRC_URI=https://github.com/tlsa/libcyaml/archive/1.1.0.tar.gz -> libcyaml-1.1.0.tar.gz
-_md5_=fa4f7e570f09750de9ff0f6d48f462f7
+SRC_URI=https://github.com/tlsa/libcyaml/archive/v1.1.0.tar.gz -> libcyaml-1.1.0.tar.gz
+_md5_=6440a345aec9dec33806e1b4cbefdfaa
