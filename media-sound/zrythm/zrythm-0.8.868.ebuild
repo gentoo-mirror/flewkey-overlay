@@ -21,10 +21,11 @@ SLOT="0"
 DEPEND="
 	app-arch/zstd
 	dev-libs/libcyaml
+	dev-libs/reproc
 	dev-scheme/guile
 	kde-frameworks/breeze-icons
 	media-libs/lilv
-	media-libs/libaudec
+	>=media-libs/libaudec-0.2.3
 	media-libs/chromaprint
 	media-libs/rubberband
 	sci-libs/fftw:*[threads]
