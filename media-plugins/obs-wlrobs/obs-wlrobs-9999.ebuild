@@ -40,6 +40,6 @@ src_install() {
 	if $(uname -m | grep "64"); then
 		install_path="/usr/lib64/obs-plugins/"
 	fi
-	dodir ${install_path}
-	cp "${S}-build/libwlrobs.so" "${D}/${install_path}/libwlrobs.so" || die "Failed to install"
+	dodir "/usr/$(get_libdir)/obs-plugins"
+	cp "${S}-build/libwlrobs.so" "${D}/usr/$(get_libdir)/obs-plugins/libwlrobs.so" || die "Failed to install"
 }
