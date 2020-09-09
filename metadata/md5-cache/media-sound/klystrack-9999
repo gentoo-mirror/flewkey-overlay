@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=unpack
+DEPEND=media-libs/libsdl2 media-libs/sdl2-image
+DESCRIPTION=A really cool fakebit tracker
+EAPI=7
+HOMEPAGE=http://kometbomb.github.io/klystrack/
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=media-libs/libsdl2 media-libs/sdl2-image
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=835e9715198bb44cdbbfcafcea51345a
