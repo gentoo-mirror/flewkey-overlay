@@ -25,5 +25,5 @@ src_compile() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" PREFIX="/usr" LIBDIR="lib64" VARIANT=release install
+	emake DESTDIR="${D}" PREFIX="/usr" LIBDIR="$(get_libdir)" VARIANT=release install
 }
