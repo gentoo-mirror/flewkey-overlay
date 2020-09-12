@@ -1,0 +1,12 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/ladspa-sdk media-libs/liblo virtual/jack virtual/opengl x11-libs/libX11
+DESCRIPTION=A collection of high-quality audio plugins
+EAPI=7
+HOMEPAGE=http://www.zamaudio.com/?p=976
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=media-libs/ladspa-sdk media-libs/liblo virtual/jack virtual/opengl x11-libs/libX11
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=dcd3a6a108e06d8a70cc4d2363c44bfc
