@@ -1,5 +1,5 @@
 dev-libs/libcyaml 1.1.0 9999: C library for reading and writing YAML
-dev-libs/reproc 14.0.0 9999: A library for dealing with external processes
+dev-libs/reproc 14.0.0 14.1.0 9999: A library for dealing with external processes
 games-util/multimc5 0.6.8 0.6.11 9999: MultiMC Minecraft Launcher
 media-libs/libaudec 0.2.2 0.2.3 9999: A library for reading and resampling audio files
 media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
