@@ -24,6 +24,7 @@ BDEPEND="
 "
 PATCHES=(
 	"${FILESDIR}/replace_pow10.patch"
+	"${FILESDIR}/fix_lv2.patch"
 )
 
 src_configure() {
