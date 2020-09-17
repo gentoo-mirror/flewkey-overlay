@@ -33,7 +33,9 @@ DEPEND="
 	x11-libs/gtksourceview:*
 "
 RDEPEND="${DEPEND}"
-BDEPEND=""
+BDEPEND="
+	>=dev-util/meson-0.55.0
+"
 
 src_install() {
 	DESTDIR="${D}" eninja -C "${BUILD_DIR}" install
