@@ -11,6 +11,7 @@ media-plugins/geonkick 2.2.3 2.3.7 9999: A free software percussion synthesizer
 media-plugins/obs-wlrobs 9999: Allows screen capture on wlroots-based Wayland compositors
 media-plugins/remid 0.3 9999: A free software percussion synthesizer
 media-plugins/surge 1.7.1 9999: Open source synthesizer plug-in
+media-plugins/tap-plugins 1.0.1 9999: Tom's Audio Processing LADSPA plugins
 media-plugins/wolf-shaper 0.1.7 9999: Waveshaper plugin w/ spline-based graph editor
 media-plugins/x42-autotune 0.6.2 9999: LV2 Autotune plugin based on Fons Adriaensen's zita-at1
 media-plugins/x42-avldrums 0.4.1 9999: Dedicated AVLDrumkits LV2 Plugin
