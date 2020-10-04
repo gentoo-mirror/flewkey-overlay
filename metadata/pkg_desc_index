@@ -1,7 +1,7 @@
 dev-libs/libcyaml 1.1.0 9999: C library for reading and writing YAML
 dev-libs/reproc 14.0.0 14.1.0 14.2.0 9999: A library for dealing with external processes
 games-util/multimc5 0.6.8 0.6.11 9999: MultiMC Minecraft Launcher
-media-libs/libaudec 0.2.2 0.2.3 9999: A library for reading and resampling audio files
+media-libs/libaudec 0.2.2 0.2.3 0.2.4 9999: A library for reading and resampling audio files
 media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
 media-plugins/bslizr 1.2.8 9999: Sequenced audio slicing effect LV2 plugin
@@ -12,7 +12,7 @@ media-plugins/obs-wlrobs 9999: Allows screen capture on wlroots-based Wayland co
 media-plugins/remid 0.3 9999: A free software percussion synthesizer
 media-plugins/surge 1.7.1 9999: Open source synthesizer plug-in
 media-plugins/tap-plugins 1.0.1 9999: Tom's Audio Processing LADSPA plugins
-media-plugins/wolf-shaper 0.1.7 9999: Waveshaper plugin w/ spline-based graph editor
+media-plugins/wolf-shaper 0.1.7 0.1.8 9999: Waveshaper plugin w/ spline-based graph editor
 media-plugins/x42-autotune 0.6.2 9999: LV2 Autotune plugin based on Fons Adriaensen's zita-at1
 media-plugins/x42-avldrums 0.4.1 9999: Dedicated AVLDrumkits LV2 Plugin
 media-plugins/x42-midifilter 0.6.4 9999: LV2 plugins for filtering MIDI events
