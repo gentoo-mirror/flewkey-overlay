@@ -1,6 +1,7 @@
 dev-libs/libcyaml 1.1.0 9999: C library for reading and writing YAML
 dev-libs/reproc 14.0.0 14.1.0 14.2.0 9999: A library for dealing with external processes
 games-util/multimc5 0.6.8 0.6.11 9999: MultiMC Minecraft Launcher
+gui-libs/libdecoration 9999: Helps Wayland clients handle window decorations
 media-libs/libaudec 0.2.2 0.2.3 0.2.4 9999: A library for reading and resampling audio files
 media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
