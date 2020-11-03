@@ -25,4 +25,5 @@ media-sound/klystrack 1.7.6 9999: A really cool fakebit tracker
 media-sound/zrythm 0.8.604 0.8.757 0.8.797 0.8.868 0.8.911 9999: Zrythm is a digital audio workstation designed to be featureful and easy to use.
 media-video/olive 0.1.2: Olive Video Editor
 net-im/lightcord-bin 0.1.4: A fancy, customizable Discord client
+sci-geosciences/osmapy 0.0.18: Python Editor for OpenStreetMap
 x11-libs/redkite 1.0.0 1.0.3 1.2.0 9999: A small GUI toolkit
