@@ -1,3 +1,4 @@
+dev-libs/juce 6.0.1 6.0.4: A cross-platform C++ framework
 dev-libs/libcyaml 1.1.0 9999: C library for reading and writing YAML
 dev-libs/reproc 14.0.0 14.1.0 14.2.0 9999: A library for dealing with external processes
 dev-python/easydict 1.9: Access dict values as attributes
@@ -5,13 +6,13 @@ dev-python/gpxpy 1.4.2: GPX file parser and GPS track manipulation library
 games-util/multimc5 0.6.8 0.6.11 9999: MultiMC Minecraft Launcher
 gui-libs/libdecoration 9999: Helps Wayland clients handle window decorations
 media-libs/libaudec 0.2.2 0.2.3 0.2.4 9999: A library for reading and resampling audio files
-media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
 media-plugins/bslizr 1.2.8 9999: Sequenced audio slicing effect LV2 plugin
 media-plugins/dragonfly-reverb 3.2.0 3.2.1 9999: A set of free reverb effects
 media-plugins/eq10q 2.2: Audio plugin bundle over the LV2 standard for Linux
 media-plugins/geonkick 2.2.3 2.3.7 2.3.8 9999: A free software percussion synthesizer
 media-plugins/obs-wlrobs 9999: Allows screen capture on wlroots-based Wayland compositors
+media-plugins/odin2 2.2.4: A 24-voice polyphonic synthesizer
 media-plugins/remid 0.3 9999: A free software percussion synthesizer
 media-plugins/surge 1.7.1 9999: Open source synthesizer plug-in
 media-plugins/tap-plugins 1.0.1 9999: Tom's Audio Processing LADSPA plugins
