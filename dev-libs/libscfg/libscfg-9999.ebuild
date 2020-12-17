@@ -14,3 +14,10 @@ SLOT="0"
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
+
+src_install() {
+	meson_src_install
+	# I don't know how to make meson install the header file
+	dodir /usr/include
+	cp "${S}/include/scfg.h" "${D}/usr/include/scfg.h"
+}
