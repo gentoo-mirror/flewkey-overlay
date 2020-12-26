@@ -1,4 +1,6 @@
 app-dicts/artha 1.0.5: Cross-platform offline English thesaurus using WordNet
+app-emulation/x16-emulator 38 9999: Emulator for the Commander X16 computer
+dev-embedded/cc65 2.19 9999: A C compiler for 6502-based systems
 dev-libs/juce 6.0.1 6.0.4: A cross-platform C++ framework
 dev-libs/libcyaml 1.1.0 9999: C library for reading and writing YAML
 dev-libs/libscfg 9999: C library for the scfg configuration format
