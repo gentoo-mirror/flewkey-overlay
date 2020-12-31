@@ -1,0 +1,7 @@
+# Copyright 1999-2020 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+# Ryan Fox <flewkey@2a03.party> (2020-12-31)
+# Users should unmask my OpenSSL ebuild if they want to use the
+# weak-ssl-ciphers flag. Making it the default for everyone would be rude.
+dev-libs/openssl
