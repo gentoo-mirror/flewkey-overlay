@@ -11,6 +11,8 @@ dev-libs/openssl:rfc3779 - Enable support for RFC 3779 (X.509 Extensions for IP 
 dev-libs/openssl:sslv3 - Support for the old/insecure SSLv3 protocol -- note: not required for TLS/https
 dev-libs/openssl:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
 dev-libs/openssl:weak-ssl-ciphers - Enable weak SSL ciphers, not recommended unless you need them
+gui-apps/foot:ime - Enable IME support
+media-libs/fcft:text-shaping - Support text shaping using HarfBuzz
 media-plugins/dragonfly-reverb:system-freeverb3 - Use the system-wide media-libs/freeverb3 instead of bundled.
 media-plugins/obs-wlrobs:dmabuf - Use the dmabuf backend
 media-plugins/obs-wlrobs:scpy - Use the scpy backend
