@@ -28,7 +28,10 @@ DEPEND="
 	x11-libs/libxkbcommon
 	x11-libs/pixman
 "
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${DEPEND}
+	gui-apps/foot-terminfo
+"
 BDEPEND="
 	app-text/scdoc
 	dev-libs/tllist
@@ -46,6 +49,7 @@ src_configure() {
 src_install() {
 	meson_src_install
 	mv "${D}/usr/share/doc/${PN}" "${D}/usr/share/doc/${PF}"
+	rm -rf "${D}/usr/share/terminfo/"
 }
 
 pkg_postinst() {
