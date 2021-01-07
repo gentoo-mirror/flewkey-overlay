@@ -3,8 +3,6 @@
 
 EAPI=7
 
-inherit meson
-
 if [[ ${PV} != *9999* ]]; then
 	SRC_URI="https://codeberg.org/dnkl/foot/archive/${PV}.tar.gz  -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
@@ -23,11 +21,9 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-src_compile() {
-	meson_src_compile "f"
-}
-
 src_install() {
+	tic -x -o "${S}" -e foot,foot-direct "${S}/foot.info"
 	dodir /usr/share/terminfo/f/
-	cp "${BUILD_DIR}/f/"* "${D}/usr/share/terminfo/f/"
+	cp "${S}/f/foot" "${D}/usr/share/terminfo/f/foot"
+	cp "${S}/f/foot-direct" "${D}/usr/share/terminfo/f/foot-direct"
 }
