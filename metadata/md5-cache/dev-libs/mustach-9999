@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/json-c
+DESCRIPTION=C implementation of mustache templating
+EAPI=7
+HOMEPAGE=https://gitlab.com/jobol/mustach
+LICENSE=ISC
+PROPERTIES=live
+RDEPEND=dev-libs/json-c
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=be26e068017ea0a26a66b31df2dce24f

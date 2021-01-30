@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-libs/json-c
+DESCRIPTION=C implementation of mustache templating
+EAPI=7
+HOMEPAGE=https://gitlab.com/jobol/mustach
+KEYWORDS=~amd64
+LICENSE=ISC
+RDEPEND=dev-libs/json-c
+SLOT=0
+SRC_URI=https://gitlab.com/jobol/mustach/-/archive/0.99/mustach-0.99.tar.gz -> mustach-0.99.tar.gz
+_md5_=064afe0d4ad2fc91700568d066311885
