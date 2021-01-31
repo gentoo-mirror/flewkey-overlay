@@ -1,12 +1,14 @@
 app-dicts/artha 1.0.5: Cross-platform offline English thesaurus using WordNet
 app-emulation/x16-emulator 38 9999: Emulator for the Commander X16 computer
 dev-embedded/cc65 2.19 9999: A C compiler for 6502-based systems
+dev-libs/clearsilver 0.11.0 9999: Clearsilver HTML templating system
 dev-libs/juce 6.0.1 6.0.4: A cross-platform C++ framework
 dev-libs/libcyaml 1.1.0 9999: C library for reading and writing YAML
 dev-libs/libscfg 9999: C library for the scfg configuration format
 dev-libs/mustach 0.99 9999: C implementation of mustache templating
 dev-libs/openssl 1.1.1i-r1: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/reproc 14.0.0 14.1.0 14.2.0 14.2.1 9999: A library for dealing with external processes
+dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
 dev-libs/tllist 1.0.4 9999: A C header file only implementation of a typed linked list
 dev-python/easydict 1.9: Access dict values as attributes
 dev-python/gpxpy 1.4.2: GPX file parser and GPS track manipulation library
