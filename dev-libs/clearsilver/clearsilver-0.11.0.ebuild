@@ -43,6 +43,11 @@ src_prepare() {
 	sed -i "s/..\/libs\/libstreamhtmlparser.a//g" "${S}/cgi/Makefile"
 	# Use Python 2 in Makefile
 	sed -i "s/scripts\/document.py/python2 scripts\/document.py/g" "${S}/Makefile"
+	# Fix relative paths in headers
+	sed -i "s/util\///g" "${S}/util/"*.h
+	sed -i "s/util\//..\/util\//g" "${S}/cs/"*.h
+	sed -i "s/util\//..\/util\//g" "${S}/cgi/"*.h
+	sed -i "s/cs\//..\/cs\//g" "${S}/cgi/"*.h
 }
 
 src_compile() {
