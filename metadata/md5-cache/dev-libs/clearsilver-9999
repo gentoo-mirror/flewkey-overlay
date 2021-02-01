@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/streamhtmlparser compression? ( sys-libs/zlib )
 SLOT=0
 _eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=69a67367a347de4456f10771d0442b19
+_md5_=0d798c79d15b0ae5d3335a8aa5e09744
