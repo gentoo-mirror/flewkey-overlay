@@ -20,7 +20,7 @@ gui-apps/foot-terminfo 1.6.2 9999: Terminfo for foot, a great Wayland terminal e
 gui-libs/libdecoration 9999: Helps Wayland clients handle window decorations
 media-gfx/glslviewer 1.6.8 9999: Console-based sandbox for GLSL shaders
 media-libs/fcft 2.3.2 9999: A simple library for font loading and glyph rasterization
-media-libs/libaudec 0.2.2 0.2.3 0.2.4 9999: A library for reading and resampling audio files
+media-libs/libaudec 0.2.2 0.2.3 0.2.4 0.3.4 9999: A library for reading and resampling audio files
 media-libs/soundpipe 9999: A lightweight music DSP library
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
 media-plugins/bslizr 1.2.8 1.2.10 9999: Sequenced audio slicing effect LV2 plugin
