@@ -18,7 +18,7 @@ dev-python/pypresence 4.2.0: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.19.2: Animated scrolling maps for Pygame
 dev-python/python-vlc 3.0.11115: Python VLC bindings
 dev-python/pytmx 3.24: Python library to read Tiled Map Editor's TMX maps
-games-rpg/tuxemon 0.4.26: Open source monster-fighting RPG
+games-rpg/tuxemon 0.4.26 9999: Open source monster-fighting RPG
 games-util/multimc5 0.6.8 0.6.11 9999: MultiMC Minecraft Launcher
 gui-apps/foot 1.6.2 1.6.3 9999: A fast, lightweight and minimalistic Wayland terminal emulator
 gui-apps/foot-terminfo 1.6.2 9999: Terminfo for foot, a great Wayland terminal emulator
