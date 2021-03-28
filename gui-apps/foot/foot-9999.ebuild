@@ -42,6 +42,7 @@ BDEPEND="
 src_configure() {
 	local emesonargs=(
 		$(meson_use ime)
+		"-Dterminfo=disabled"
 	)
 	meson_src_configure
 }
@@ -49,7 +50,6 @@ src_configure() {
 src_install() {
 	meson_src_install
 	mv "${D}/usr/share/doc/${PN}" "${D}/usr/share/doc/${PF}"
-	rm -rf "${D}/usr/share/terminfo/"
 }
 
 pkg_postinst() {
