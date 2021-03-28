@@ -20,8 +20,8 @@ dev-python/python-vlc 3.0.11115: Python VLC bindings
 dev-python/pytmx 3.24: Python library to read Tiled Map Editor's TMX maps
 games-rpg/tuxemon 0.4.26 9999: Open source monster-fighting RPG
 games-util/multimc5 0.6.8 0.6.11 9999: MultiMC Minecraft Launcher
-gui-apps/foot 1.6.2 1.6.3 9999: A fast, lightweight and minimalistic Wayland terminal emulator
-gui-apps/foot-terminfo 1.6.2 9999: Terminfo for foot, a great Wayland terminal emulator
+gui-apps/foot 1.6.2 1.6.3 1.7.1 9999: A fast, lightweight and minimalistic Wayland terminal emulator
+gui-apps/foot-terminfo 1.6.2 1.7.1 9999: Terminfo for foot, a great Wayland terminal emulator
 gui-libs/libdecoration 9999: Helps Wayland clients handle window decorations
 media-gfx/glslviewer 1.6.8 9999: Console-based sandbox for GLSL shaders
 media-libs/fcft 2.3.2 9999: A simple library for font loading and glyph rasterization
