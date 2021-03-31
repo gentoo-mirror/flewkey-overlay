@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=media-libs/lv2 x11-libs/libX11 x11-libs/cairo[X]
+DESCRIPTION=LV2 sound effect plugin
+EAPI=7
+HOMEPAGE=https://github.com/sjaehn/BSpacr
+INHERIT=git-r3
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=media-libs/lv2 x11-libs/libX11 x11-libs/cairo[X]
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=9ac48f8ab8754c59053107e729fb00c3
