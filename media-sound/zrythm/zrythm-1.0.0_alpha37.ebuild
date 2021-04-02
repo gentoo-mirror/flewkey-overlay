@@ -3,9 +3,13 @@
 
 EAPI=7
 
-inherit git-r3 meson xdg-utils gnome2-utils
+inherit meson xdg-utils gnome2-utils
 
-EGIT_REPO_URI="https://git.sr.ht/~alextee/zrythm"
+MY_PV="1.0.0-alpha.14.1.2"
+MY_P="${PN}-${MY_PV}"
+S="${WORKDIR}/${MY_P}"
+SRC_URI="https://www.zrythm.org/releases/${MY_P}.tar.xz"
+KEYWORDS=""
 
 DESCRIPTION="Zrythm is a digital audio workstation designed to be featureful and easy to use."
 HOMEPAGE="https://www.zrythm.org/"
