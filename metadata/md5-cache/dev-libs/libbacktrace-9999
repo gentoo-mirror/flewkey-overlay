@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile unpack
+DESCRIPTION=C library for symbolic backtraces
+EAPI=7
+HOMEPAGE=https://github.com/ianlancetaylor/libbacktrace
+INHERIT=git-r3
+LICENSE=BSD
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=c976640843d3436668293567a42790a4
