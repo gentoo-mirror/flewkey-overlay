@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 PROPERTIES=live
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtwidgets:5 media-libs/libsndfile media-sound/csound
 SLOT=0
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=57d094c1b34957fe880b9a3f5c27610b
