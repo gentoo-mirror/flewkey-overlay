@@ -19,6 +19,7 @@ dev-python/neteria 1.0.2: Open source game networking framework for Python
 dev-python/pypresence 4.2.0: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.19.2: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24: Python library to read Tiled Map Editor's TMX maps
+dev-python/youtube-search-python 1.4.5: YouTube scraping library
 games-rpg/tuxemon 0.4.26 9999: Open source monster-fighting RPG
 games-util/multimc5 0.6.8 0.6.11 9999: MultiMC Minecraft Launcher
 gui-apps/foot 1.6.2 1.6.3 1.7.1 9999: A fast, lightweight and minimalistic Wayland terminal emulator
@@ -40,15 +41,11 @@ media-plugins/remid 0.3 9999: A free software percussion synthesizer
 media-plugins/surge 1.7.1 9999: Open source synthesizer plug-in
 media-plugins/tap-plugins 1.0.1 9999: Tom's Audio Processing LADSPA plugins
 media-plugins/wolf-shaper 0.1.7 0.1.8 9999: Waveshaper plugin w/ spline-based graph editor
-media-plugins/x42-autotune 0.6.2 9999: LV2 Autotune plugin based on Fons Adriaensen's zita-at1
-media-plugins/x42-avldrums 0.4.1 0.4.2 9999: Dedicated AVLDrumkits LV2 Plugin
-media-plugins/x42-midifilter 0.6.4 9999: LV2 plugins for filtering MIDI events
-media-plugins/x42-tuner 0.5.2 0.5.3 9999: Musical Instrument Tuner
 media-plugins/zam-plugins 3.13 3.14 9999: A collection of high-quality audio plugins
 media-plugins/zplugins 0.2.3 9999: A collection of audio DSP plugins
 media-sound/csoundqt 0.9.8.1 9999: The default frontend for Csound
 media-sound/klystrack 1.7.6 9999: A really cool fakebit tracker
-media-sound/pyterm 0.5_beta6: Command line YouTube music streamer
+media-sound/pyterm 0.5_beta6 0.5_beta10: Command line YouTube music streamer
 media-sound/zrythm 0.8.604 0.8.757 0.8.797 0.8.868 0.8.911 1.0.0_alpha28 1.0.0_alpha37 9999: Zrythm is a digital audio workstation designed to be featureful and easy to use.
 media-video/olive 0.1.2: Olive Video Editor
 net-im/lightcord-bin 0.1.4 0.1.4_p1 0.1.5: A fancy, customizable Discord client
