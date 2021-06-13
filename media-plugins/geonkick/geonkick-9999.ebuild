@@ -28,11 +28,6 @@ BDEPEND="
 	>=dev-util/cmake-3.7
 "
 
-src_prepare() {
-	sed -i "s/Version=1.10/Version=1.1/" "${S}/data/geonkick.desktop"
-	cmake_src_prepare
-}
-
 pkg_postinst() {
 	xdg_mimeinfo_database_update
 	xdg_desktop_database_update
