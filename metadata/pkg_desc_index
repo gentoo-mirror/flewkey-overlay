@@ -2,9 +2,9 @@ app-dicts/artha 1.0.5: Cross-platform offline English thesaurus using WordNet
 app-emulation/x16-emulator 38 9999: Emulator for the Commander X16 computer
 dev-embedded/cc65 2.19 9999: A C compiler for 6502-based systems
 dev-libs/clearsilver 0.11.0 9999: Clearsilver HTML templating system
-dev-libs/juce 6.0.1 6.0.4 6.0.7: A cross-platform C++ framework
+dev-libs/juce 6.0.1 6.0.4 6.0.7 6.0.8: A cross-platform C++ framework
 dev-libs/libbacktrace 9999: C library for symbolic backtraces
-dev-libs/libcyaml 1.1.0 9999: C library for reading and writing YAML
+dev-libs/libcyaml 1.1.0 1.2.0 9999: C library for reading and writing YAML
 dev-libs/libscfg 9999: C library for the scfg configuration format
 dev-libs/libshake 0.3.2 9999: Simple, cross-platform haptic library.
 dev-libs/libversion 3.0.1 9999: Advanced version string comparison library
@@ -23,17 +23,17 @@ dev-python/pyscroll 2.19.2: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24: Python library to read Tiled Map Editor's TMX maps
 dev-python/youtube-search-python 1.4.5: YouTube scraping library
 games-rpg/tuxemon 0.4.26 9999: Open source monster-fighting RPG
-games-util/multimc5 0.6.8 0.6.11 9999: MultiMC Minecraft Launcher
+games-util/multimc5 0.6.8 0.6.11 0.6.12 9999: MultiMC Minecraft Launcher
 gui-libs/libdecoration 9999: Helps Wayland clients handle window decorations
 media-gfx/glslviewer 1.6.8 9999: Console-based sandbox for GLSL shaders
-media-libs/libaudec 0.2.2 0.2.3 0.2.4 0.3.4 9999: A library for reading and resampling audio files
+media-libs/libaudec 0.3.4 9999: A library for reading and resampling audio files
 media-libs/soundpipe 9999: A lightweight music DSP library
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
-media-plugins/bslizr 1.2.8 1.2.10 1.2.12 1.2.14 9999: Sequenced audio slicing effect LV2 plugin
+media-plugins/bslizr 1.2.8 1.2.10 1.2.12 1.2.14 1.2.16 9999: Sequenced audio slicing effect LV2 plugin
 media-plugins/bspacr 1.2.0 9999: LV2 sound effect plugin
 media-plugins/dragonfly-reverb 3.2.0 3.2.1 3.2.3 3.2.5 9999: A set of free reverb effects
 media-plugins/eq10q 2.2: Audio plugin bundle over the LV2 standard for Linux
-media-plugins/geonkick 2.2.3 2.3.7 2.3.8 2.6.0 2.7.0 2.7.2 2.7.3 9999: A free software percussion synthesizer
+media-plugins/geonkick 2.2.3 2.3.7 2.3.8 2.6.0 2.7.0 2.7.2 2.7.3 2.8.0 9999: A free software percussion synthesizer
 media-plugins/obs-wlrobs 9999: Allows screen capture on wlroots-based Wayland compositors
 media-plugins/odin2 2.2.4: A 24-voice polyphonic synthesizer
 media-plugins/remid 0.3 9999: A free software percussion synthesizer
@@ -41,7 +41,7 @@ media-plugins/surge 1.7.1 9999: Open source synthesizer plug-in
 media-plugins/tap-plugins 1.0.1 9999: Tom's Audio Processing LADSPA plugins
 media-plugins/wolf-shaper 0.1.7 0.1.8 9999: Waveshaper plugin w/ spline-based graph editor
 media-plugins/zam-plugins 3.13 3.14 9999: A collection of high-quality audio plugins
-media-plugins/zplugins 0.2.3 9999: A collection of audio DSP plugins
+media-plugins/zplugins 0.2.4 9999: A collection of audio DSP plugins
 media-sound/csoundqt 0.9.8.1 9999: The default frontend for Csound
 media-sound/klystrack 1.7.6 9999: A really cool fakebit tracker
 media-sound/pyterm 0.5_beta6 0.5_beta10: Command line YouTube music streamer
@@ -50,4 +50,4 @@ media-video/olive 0.1.2: Olive Video Editor
 net-im/lightcord-bin 0.1.4 0.1.4_p1 0.1.5: A fancy, customizable Discord client
 sci-geosciences/osmapy 0.0.18: Python Editor for OpenStreetMap
 x11-libs/redkite 1.0.0 1.0.3 1.2.0 1.3.0 1.3.1 9999: A small GUI toolkit
-x11-libs/ztoolkit 0.1.1 9999: GUI toolkit for LV2 plugins
+x11-libs/ztoolkit 0.1.2 9999: GUI toolkit for LV2 plugins
