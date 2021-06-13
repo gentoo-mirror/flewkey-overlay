@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake xdg-utils
+inherit cmake xdg
 
 if [[ ${PV} != *9999* ]]; then
 	SRC_URI="https://github.com/iurie-sw/${PN}/archive/v${PV}.tar.gz  -> ${P}.tar.gz"
@@ -31,16 +31,4 @@ BDEPEND="
 src_prepare() {
 	sed -i "s/Version=1.10/Version=1.1/" "${S}/data/geonkick.desktop"
 	cmake_src_prepare
-}
-
-pkg_postinst() {
-	xdg_mimeinfo_database_update
-	xdg_desktop_database_update
-	xdg_icon_cache_update
-}
-
-pkg_postrm() {
-	xdg_mimeinfo_database_update
-	xdg_desktop_database_update
-	xdg_icon_cache_update
 }

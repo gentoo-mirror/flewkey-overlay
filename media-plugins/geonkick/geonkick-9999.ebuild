@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake xdg-utils
+inherit cmake xdg
 
 if [[ ${PV} != *9999* ]]; then
 	SRC_URI="https://github.com/iurie-sw/${PN}/archive/v${PV}.tar.gz  -> ${P}.tar.gz"
@@ -27,15 +27,3 @@ RDEPEND="${DEPEND}"
 BDEPEND="
 	>=dev-util/cmake-3.7
 "
-
-pkg_postinst() {
-	xdg_mimeinfo_database_update
-	xdg_desktop_database_update
-	xdg_icon_cache_update
-}
-
-pkg_postrm() {
-	xdg_mimeinfo_database_update
-	xdg_desktop_database_update
-	xdg_icon_cache_update
-}
