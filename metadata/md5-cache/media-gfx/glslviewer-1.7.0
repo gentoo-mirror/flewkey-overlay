@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=media-libs/glfw
+DESCRIPTION=Console-based sandbox for GLSL shaders
+EAPI=7
+HOMEPAGE=http://patriciogonzalezvivo.com/2015/glslViewer/
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=media-libs/glfw
+SLOT=0
+SRC_URI=https://github.com/patriciogonzalezvivo/glslViewer/archive/1.7.0.tar.gz -> glslviewer-1.7.0.tar.gz https://github.com/mackron/miniaudio/archive/199d6a7875b4288af6a7b615367c8fdc2019b03c.tar.gz -> miniaudio-0.10.35.tar.gz
+_md5_=05611ed6b8e86336a6705af73869c5f1

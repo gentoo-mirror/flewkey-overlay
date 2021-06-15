@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=media-libs/glfw
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=83ae680e07df9eb9ab9cf9783b465c72
+_md5_=3ee39cea8b31a6a83025695cc1160634
