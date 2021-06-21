@@ -1,10 +1,13 @@
-# Copyright 2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 inherit cmake
 
+MY_PN="MultiMC5"
+MY_P="${MY_PN}-${PV}"
+S="${WORKDIR}/${MY_P}"
 V_QUAZIP="multimc-3"
 V_LIBNBTPLUSPLUS="multimc-0.6.1"
 SRC_URI="
@@ -33,8 +36,8 @@ BDEPEND="
 src_unpack() {
 	default
 	rm -rf "${S}/libraries/libnbtplusplus" "${S}/libraries/quazip" || die
-	cp -r "${WORKDIR}/quazip-${V_QUAZIP}" "${S}/libraries/quazip" || die
-	cp -r "${WORKDIR}/libnbtplusplus-${V_LIBNBTPLUSPLUS}" "${S}/libraries/libnbtplusplus" || die
+	mv "${WORKDIR}/quazip-${V_QUAZIP}" "${S}/libraries/quazip" || die
+	mv "${WORKDIR}/libnbtplusplus-${V_LIBNBTPLUSPLUS}" "${S}/libraries/libnbtplusplus" || die
 }
 
 src_configure() {
