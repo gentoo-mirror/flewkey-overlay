@@ -21,7 +21,7 @@ dev-python/neteria 1.0.2: Open source game networking framework for Python
 dev-python/pypresence 4.2.0: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.19.2: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24: Python library to read Tiled Map Editor's TMX maps
-dev-python/youtube-search-python 1.4.5: YouTube scraping library
+dev-python/youtube-search-python 1.4.5 1.4.6: YouTube scraping library
 games-rpg/tuxemon 0.4.26 9999: Open source monster-fighting RPG
 games-util/multimc5 0.6.8 0.6.11 0.6.12 9999: MultiMC Minecraft Launcher
 gui-libs/libdecoration 9999: Helps Wayland clients handle window decorations
