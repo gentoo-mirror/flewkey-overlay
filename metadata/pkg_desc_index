@@ -17,11 +17,14 @@ dev-python/bashlex 0.15: Python parser for bash
 dev-python/easydict 1.9: Access dict values as attributes
 dev-python/ffpyplayer 4.3.2: Python bindings for the FFmpeg media player
 dev-python/gpxpy 1.4.2: GPX file parser and GPS track manipulation library
+dev-python/hkdf 0.0.3 9999: Python implementation of HKDF
 dev-python/libversion 1.2.3: Python bindings for libversion
 dev-python/neteria 1.0.2: Open source game networking framework for Python
 dev-python/pypresence 4.2.0: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.19.2: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24: Python library to read Tiled Map Editor's TMX maps
+dev-python/spake2 0.8 9999: Python implementation of SPAKE2
+dev-python/txtorcon 21.0.0 9999: Tor control protocol implementation for Python
 dev-python/youtube-search-python 1.4.5 1.4.6: YouTube scraping library
 games-rpg/tuxemon 0.4.26 9999: Open source monster-fighting RPG
 games-util/multimc5 0.6.8 0.6.11 0.6.12 9999: MultiMC Minecraft Launcher
@@ -50,6 +53,6 @@ media-sound/pyterm 0.5_beta6 0.5_beta10 0.5 0.6_beta2: Command line YouTube musi
 media-sound/zrythm 0.8.604 0.8.757 0.8.797 0.8.868 0.8.911 1.0.0_alpha28 1.0.0_alpha37 9999: Zrythm is a digital audio workstation designed to be featureful and easy to use.
 media-video/olive 0.1.2: Olive Video Editor
 net-im/lightcord-bin 0.1.4 0.1.4_p1 0.1.5: A fancy, customizable Discord client
-sci-geosciences/osmapy 0.0.18: Python Editor for OpenStreetMap
+net-misc/magic-wormhole 0.12.0 9999: Safe, simple file sharing
 x11-libs/redkite 1.0.0 1.0.3 1.2.0 1.3.0 1.3.1 9999: A small GUI toolkit
 x11-libs/ztoolkit 0.1.2 9999: GUI toolkit for LV2 plugins
