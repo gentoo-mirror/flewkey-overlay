@@ -2,14 +2,16 @@ flewkey-overlay
 
 A personal Gentoo overlay for flewkey, with miscellaneous packages.
 
-Use the folling command to add it with layman:
-layman -a flewkey-overlay
+Q: How do I install this overlay?
+A: https://wiki.gentoo.org/wiki/Eselect/Repository
 
-Please contact me if there are any issues with these ebuilds. I would be glad
-to provide support and correct any problems they may have.
+Q: Could you move this package to GURU or the audio overlay?
+A: Yes. Send me an email and I will start the process.
 
-Audio-related ebuilds may be removed if they are added to the audio-overlay. I
-recommend adding their overlay, since it is well maintained and held to proper
-quality standards.
+Q: Can I contribute to this overlay?
+A: Yes. Send me a patch or attach the modified files.
+
+Q: This ebuild doesn't work. Can you fix it?
+A: Probably. Send me a log or describe the issue.
 
 Send questions, issues, and patches to flewkey@2a03.party.
