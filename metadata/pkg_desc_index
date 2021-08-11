@@ -10,7 +10,7 @@ dev-libs/libshake 0.3.2 9999: Simple, cross-platform haptic library.
 dev-libs/libversion 3.0.1 9999: Advanced version string comparison library
 dev-libs/mustach 0.99 1.1.0 9999: C implementation of mustache templating
 dev-libs/openssl 1.1.1i-r1 1.1.1k-r1: full-strength general purpose cryptography library (including SSL and TLS)
-dev-libs/reproc 14.0.0 14.1.0 14.2.0 14.2.1 14.2.2 9999: A library for dealing with external processes
+dev-libs/reproc 14.0.0 14.1.0 14.2.0 14.2.1 14.2.2 14.2.3 9999: A library for dealing with external processes
 dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
 dev-libs/tllist 1.0.4 1.0.5 9999: A C header file only implementation of a typed linked list
 dev-python/bashlex 0.15: Python parser for bash
