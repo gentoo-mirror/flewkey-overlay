@@ -6,6 +6,6 @@
 		<name>Ryan Fox</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">DaanDeMeyer/reproc/tags</remote-id>
+		<remote-id type="github">DaanDeMeyer/reproc</remote-id>
 	</upstream>
 </pkgmetadata>
