@@ -10,7 +10,7 @@ dev-libs/libglibutil 1.0.55 9999: Library of glib utilities
 dev-libs/libscfg 9999: C library for the scfg configuration format
 dev-libs/libshake 0.3.2 9999: Simple, cross-platform haptic library.
 dev-libs/libversion 3.0.1 9999: Advanced version string comparison library
-dev-libs/mustach 0.99 1.1.0 9999: C implementation of mustache templating
+dev-libs/mustach 0.99 1.1.0 1.1.1 9999: C implementation of mustache templating
 dev-libs/openssl 1.1.1i-r1 1.1.1k-r1: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/reproc 14.0.0 14.1.0 14.2.0 14.2.1 14.2.2 14.2.3 9999: A library for dealing with external processes
 dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
@@ -26,9 +26,9 @@ dev-python/neteria 1.0.2: Open source game networking framework for Python
 dev-python/pyclip 0.5.4 9999: Python clipboard module
 dev-python/pypresence 4.2.0: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.19.2: Animated scrolling maps for Pygame
-dev-python/pytmx 3.24: Python library to read Tiled Map Editor's TMX maps
+dev-python/pytmx 3.24 3.25: Python library to read Tiled Map Editor's TMX maps
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
-dev-python/txtorcon 21.0.0 9999: Tor control protocol implementation for Python
+dev-python/txtorcon 21.0.0 21.1.0 9999: Tor control protocol implementation for Python
 dev-python/youtube-search-python 1.4.5 1.4.6: YouTube scraping library
 games-rpg/tuxemon 0.4.26 9999: Open source monster-fighting RPG
 games-util/multimc5 0.6.8 0.6.11 0.6.12 9999: MultiMC Minecraft Launcher
