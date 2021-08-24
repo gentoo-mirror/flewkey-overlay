@@ -3,7 +3,7 @@ app-emulation/x16-emulator 38 9999: Emulator for the Commander X16 computer
 dev-embedded/cc65 2.19 9999: A C compiler for 6502-based systems
 dev-libs/clearsilver 0.11.0 9999: Clearsilver HTML templating system
 dev-libs/gbinder 1.1.10 9999: GLib-style interface to binder
-dev-libs/juce 6.0.1 6.0.4 6.0.7 6.0.8: A cross-platform C++ framework
+dev-libs/juce 6.0.1 6.0.4 6.0.7 6.0.8 6.1.0: A cross-platform C++ framework
 dev-libs/libbacktrace 9999: C library for symbolic backtraces
 dev-libs/libcyaml 1.1.0 1.2.0 9999: C library for reading and writing YAML
 dev-libs/libglibutil 1.0.55 9999: Library of glib utilities
