@@ -25,10 +25,6 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
-PATCHES=(
-	"${FILESDIR}/${PN}-1.2.0-soname.patch"
-)
-
 SOVER=".1"
 SOVEREV=".1.2"
 
