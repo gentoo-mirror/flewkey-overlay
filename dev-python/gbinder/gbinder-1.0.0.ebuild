@@ -8,12 +8,16 @@ DISTUTILS_USE_SETUPTOOLS=no
 
 inherit distutils-r1
 
-EGIT_COMMIT="834198b2e6cbeebdce80e982a81b1bf37bb3adbd"
-MY_PN="${PN}-python"
-MY_P="${MY_PN}-${EGIT_COMMIT}"
-S="${WORKDIR}/${MY_P}"
-SRC_URI="https://github.com/erfanoabdi/gbinder-python/archive/${EGIT_COMMIT}.tar.gz -> ${P}.tar.gz"
-KEYWORDS="~amd64"
+if [[ ${PV} != *9999* ]]; then
+	MY_PN="${PN}-python"
+	MY_P="${MY_PN}-${PV}"
+	S="${WORKDIR}/${MY_P}"
+	SRC_URI="https://github.com/erfanoabdi/gbinder-python/archive/${PV}.tar.gz -> ${P}.tar.gz"
+	KEYWORDS="~amd64"
+else
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/erfanoabdi/gbinder-python.git"
+fi
 
 DESCRIPTION="Python bindings for libgbinder"
 HOMEPAGE="https://github.com/erfanoabdi/gbinder-python"
