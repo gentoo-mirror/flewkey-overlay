@@ -3,7 +3,7 @@ app-emulation/cemu 1.3 9999: TI-84 Plus CE emulator
 app-emulation/x16-emulator 38 9999: Emulator for the Commander X16 computer
 dev-embedded/cc65 2.19 9999: A C compiler for 6502-based systems
 dev-libs/clearsilver 0.11.0 9999: Clearsilver HTML templating system
-dev-libs/gbinder 1.1.10 1.1.11 9999: GLib-style interface to binder
+dev-libs/gbinder 1.1.10 1.1.11 1.1.12 9999: GLib-style interface to binder
 dev-libs/juce 6.0.1 6.0.4 6.0.7 6.0.8 6.1.0 6.1.1 6.1.2: A cross-platform C++ framework
 dev-libs/libbacktrace 9999: C library for symbolic backtraces
 dev-libs/libcyaml 1.1.0 1.2.0 1.2.1 9999: C library for reading and writing YAML
@@ -16,7 +16,7 @@ dev-libs/openssl 1.1.1i-r1 1.1.1k-r1: full-strength general purpose cryptography
 dev-libs/reproc 14.0.0 14.1.0 14.2.0 14.2.1 14.2.2 14.2.3 9999: A library for dealing with external processes
 dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
 dev-libs/tllist 1.0.4 1.0.5 9999: A C header file only implementation of a typed linked list
-dev-python/bashlex 0.15: Python parser for bash
+dev-python/bashlex 0.15 0.16: Python parser for bash
 dev-python/easydict 1.9: Access dict values as attributes
 dev-python/ffpyplayer 4.3.2: Python bindings for the FFmpeg media player
 dev-python/gbinder 1.0.0 9999: Python bindings for libgbinder
