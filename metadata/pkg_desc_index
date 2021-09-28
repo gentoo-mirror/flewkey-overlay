@@ -31,7 +31,7 @@ dev-python/pyscroll 2.19.2 2.23 2.24: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24 3.25 3.26: Python library to read Tiled Map Editor's TMX maps
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 21.0.0 21.1.0 9999: Tor control protocol implementation for Python
-dev-python/youtube-search-python 1.4.5 1.4.6 1.4.8: YouTube scraping library
+dev-python/youtube-search-python 1.4.5 1.4.6 1.4.8 1.4.9: YouTube scraping library
 games-rpg/tuxemon 0.4.26 9999: Open source monster-fighting RPG
 gui-libs/libdecoration 9999: Helps Wayland clients handle window decorations
 media-gfx/glslviewer 1.6.8 1.7.0 9999: Console-based sandbox for GLSL shaders
