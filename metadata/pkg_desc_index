@@ -8,7 +8,7 @@ dev-libs/gbinder 1.1.10 1.1.11 1.1.12 9999: GLib-style interface to binder
 dev-libs/juce 6.0.1 6.0.4 6.0.7 6.0.8 6.1.0 6.1.1 6.1.2: A cross-platform C++ framework
 dev-libs/libbacktrace 9999: C library for symbolic backtraces
 dev-libs/libcyaml 1.1.0 1.2.0 1.2.1 9999: C library for reading and writing YAML
-dev-libs/libglibutil 1.0.55 9999: Library of glib utilities
+dev-libs/libglibutil 1.0.55 1.0.56 9999: Library of glib utilities
 dev-libs/libscfg 9999: C library for the scfg configuration format
 dev-libs/libshake 0.3.2 9999: Simple, cross-platform haptic library.
 dev-libs/libversion 3.0.1 9999: Advanced version string comparison library
