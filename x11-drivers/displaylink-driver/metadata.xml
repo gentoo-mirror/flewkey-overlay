@@ -5,7 +5,4 @@
 		<email>flewkey@2a03.party</email>
 		<name>Ryan Fox</name>
 	</maintainer>
-	<upstream>
-		<remote-id type="github">DisplayLink/evdi</remote-id>
-	</upstream>
 </pkgmetadata>
