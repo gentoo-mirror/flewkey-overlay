@@ -3,6 +3,8 @@
 
 EAPI=8
 
+inherit udev
+
 AR_DATE="2021-09"
 AR_NAME="DisplayLink%20USB%20Graphics%20Software%20for%20Ubuntu5.4.1-EXE.zip"
 UBUNTU_VER="1604"
@@ -22,25 +24,28 @@ SLOT="0"
 DEPEND="app-arch/unzip"
 RDEPEND="
 	virtual/libusb
+	virtual/udev
 	x11-libs/libevdi
 "
 
-QA_PREBUILT="opt/${P}/DisplayLinkManager"
+QA_PREBUILT="opt/displaylink/DisplayLinkManager"
 
 src_unpack() {
 	default
 	sh "${WORKDIR}/${MY_P}.run" --noexec --keep
-	cp "${FILESDIR}/dlm.init.d" "${WORKDIR}/dlm.init.d"
 }
 
 src_prepare() {
 	default
-	sed -i "s/@P@/${P}/" "${WORKDIR}/dlm.init.d"
+	source "${S}/udev-installer.sh" && create_udev_rules_file "${S}/99-dlm.rules"
+	source "${S}/udev-installer.sh" && displaylink_bootstrapper_code > "${S}/udev.sh"
+	cat "${FILESDIR}/openrc_start_stop_functions" >> "${S}/udev.sh"
+	source "${S}/udev-installer.sh" && create_main_function >> "${S}/udev.sh"
 }
 
 src_install() {
-	exeinto "/opt/${P}"
-	insinto "/opt/${P}"
+	exeinto "/opt/displaylink"
+	insinto "/opt/displaylink"
 	case "${ARCH}" in
 		amd64)	MY_ARCH="x64" ;;
 		*)		MY_ARCH="${ARCH}" ;;
@@ -50,5 +55,8 @@ src_install() {
 	doins "${S}/ella-dock-release.spkg"
 	doins "${S}/firefly-monitor-release.spkg"
 	doins "${S}/ridge-dock-release.spkg"
-	newinitd "${WORKDIR}/dlm.init.d" "dlm"
+	newinitd "${FILESDIR}/dlm.init.d" "dlm"
+	udev_dorules "${S}/99-dlm.rules"
+	insopts -m744
+	doins "${S}/udev.sh"
 }
