@@ -8,7 +8,7 @@ dir="/opt/@P@"
 
 start() {
 	modprobe -q evdi
-	start-stop-daemon --start --background --chdir ${dir} --make-pidfile --pidfile /run/dlm.pid --exec ${dir}/DisplayLinkManager
+	start-stop-daemon --start --background --chdir /opt/displaylink --make-pidfile --pidfile /run/dlm.pid --exec /opt/displaylink/DisplayLinkManager
 	eend $?
 }
 
