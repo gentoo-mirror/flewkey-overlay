@@ -1,11 +1,14 @@
+BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=install prepare unpack
 DEPEND=app-arch/unzip
 DESCRIPTION=Driver for modern DisplayLink devices
 EAPI=8
 HOMEPAGE=http://www.displaylink.com/downloads/ubuntu
+INHERIT=udev
 KEYWORDS=~amd64
 LICENSE=DisplayLink-EULA
-RDEPEND=virtual/libusb x11-libs/libevdi
+RDEPEND=virtual/libusb virtual/udev x11-libs/libevdi
 SLOT=0
 SRC_URI=https://www.synaptics.com/sites/default/files/exe_files/2021-09/DisplayLink%20USB%20Graphics%20Software%20for%20Ubuntu5.4.1-EXE.zip -> displaylink-driver-5.4.1.55.174.zip
-_md5_=def0aef4fe9bd2852f63cd3d00a71589
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	udev	2d229ad4bfa09058e0184b1ca900db32
+_md5_=caa40d71adbbf80842755deb09360bf4
