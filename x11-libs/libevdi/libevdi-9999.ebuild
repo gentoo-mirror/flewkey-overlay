@@ -27,4 +27,5 @@ BDEPEND=""
 
 src_install() {
 	emake install DESTDIR="${D}" LIBDIR="${EPREFIX}/usr/$(get_libdir)"
+	doheader "${S}/evdi_lib.h"
 }
