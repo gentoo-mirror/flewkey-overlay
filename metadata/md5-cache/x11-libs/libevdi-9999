@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=x11-drivers/evdi
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=bdbb006f91d664e97e674bd35714d712
+_md5_=feb61ff16a2cfab9c7201b4dd31a9129

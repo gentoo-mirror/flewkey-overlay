@@ -27,7 +27,7 @@ dev-python/libversion 1.2.3: Python bindings for libversion
 dev-python/neteria 1.0.2: Open source game networking framework for Python
 dev-python/pyclip 0.5.4 9999: Python clipboard module
 dev-python/pypresence 4.2.0: Discord IPC and Rich Presence wrapper for Python
-dev-python/pyscroll 2.19.2 2.23 2.24: Animated scrolling maps for Pygame
+dev-python/pyscroll 2.19.2 2.23 2.24 2.26: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24 3.25 3.26: Python library to read Tiled Map Editor's TMX maps
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 21.0.0 21.1.0 9999: Tor control protocol implementation for Python
