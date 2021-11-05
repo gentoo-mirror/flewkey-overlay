@@ -1,13 +1,11 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
-DEPEND=media-libs/glfw
 DESCRIPTION=Console-based sandbox for GLSL shaders
-EAPI=7
+EAPI=8
 HOMEPAGE=http://patriciogonzalezvivo.com/2015/glslViewer/
 INHERIT=git-r3
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=media-libs/glfw
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=3ee39cea8b31a6a83025695cc1160634
+_md5_=cb777b71b4524eadafe0ce711adef6ee

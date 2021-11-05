@@ -1,0 +1,9 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Console-based sandbox for GLSL shaders
+EAPI=8
+HOMEPAGE=http://patriciogonzalezvivo.com/2015/glslViewer/
+KEYWORDS=~amd64
+LICENSE=BSD
+SLOT=0
+SRC_URI=https://github.com/patriciogonzalezvivo/glslViewer/archive/2.0.0.tar.gz -> glslviewer-2.0.0.tar.gz https://github.com/patriciogonzalezvivo/ada/archive/c5c173827fee9812caf9c92615c851766edd8cda.tar.gz -> ada-c5c173827fee9812caf9c92615c851766edd8cda.tar.gz https://github.com/mackron/miniaudio/archive/dbca7a3b44594e0226f887472b31f54aa5f14214.tar.gz -> miniaudio-0.10.42.tar.gz
+_md5_=cb777b71b4524eadafe0ce711adef6ee
