@@ -10,10 +10,9 @@ inherit distutils-r1
 
 if [[ ${PV} != *9999* ]]; then
 	MY_PN="Tuxemon"
-	MY_PV="d13b4f584c7839724a2deb9f7c1df1e01536d022"
-	MY_P="${MY_PN}-${MY_PV}"
+	MY_P="${MY_PN}-${PV}"
 	S="${WORKDIR}/${MY_P}"
-	SRC_URI="https://github.com/Tuxemon/Tuxemon/archive/${MY_PV}.tar.gz  -> ${P}.tar.gz"
+	SRC_URI="https://github.com/Tuxemon/Tuxemon/archive/v${PV}.tar.gz  -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
 else
 	inherit git-r3
