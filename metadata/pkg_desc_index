@@ -1,14 +1,14 @@
 app-dicts/artha 1.0.5: Cross-platform offline English thesaurus using WordNet
 app-emulation/cemu 1.3 9999: TI-84 Plus CE emulator
 app-emulation/x16-emulator 38 9999: Emulator for the Commander X16 computer
-app-text/wike 1.5.7 1.6.0 9999: Tor control protocol implementation for Python
+app-text/wike 1.5.7 1.6.0 1.6.1 9999: Tor control protocol implementation for Python
 dev-embedded/cc65 2.19 9999: A C compiler for 6502-based systems
 dev-libs/clearsilver 0.11.0 9999: Clearsilver HTML templating system
 dev-libs/gbinder 1.1.10 1.1.11 1.1.12 1.1.13 9999: GLib-style interface to binder
 dev-libs/juce 6.0.1 6.0.4 6.0.7 6.0.8 6.1.0 6.1.1 6.1.2: A cross-platform C++ framework
 dev-libs/libbacktrace 9999: C library for symbolic backtraces
 dev-libs/libcyaml 1.1.0 1.2.0 1.2.1 9999: C library for reading and writing YAML
-dev-libs/libglibutil 1.0.55 1.0.56 1.0.57 9999: Library of glib utilities
+dev-libs/libglibutil 1.0.55 1.0.56 1.0.57 1.0.58 9999: Library of glib utilities
 dev-libs/libscfg 9999: C library for the scfg configuration format
 dev-libs/libshake 0.3.2 9999: Simple, cross-platform haptic library.
 dev-libs/libversion 3.0.1 9999: Advanced version string comparison library
@@ -24,18 +24,18 @@ dev-python/freetype-py 2.2.0 9999: Python bindings for freetype
 dev-python/gbinder 1.0.0 9999: Python bindings for libgbinder
 dev-python/gpxpy 1.4.2 1.5.0 9999: GPX file parser and GPS track manipulation library
 dev-python/hkdf 0.0.3 9999: Python implementation of HKDF
-dev-python/libversion 1.2.3: Python bindings for libversion
+dev-python/libversion 1.2.3 1.2.4 9999: Python bindings for libversion
 dev-python/markdown-captions 2 9999: Python bindings for freetype
 dev-python/neteria 1.0.2: Open source game networking framework for Python
 dev-python/pyclip 0.5.4 9999: Python clipboard module
 dev-python/pyglm 2.5.4 9999: Fast OpenGL Mathematics
 dev-python/pypresence 4.2.0 4.2.1 9999: Discord IPC and Rich Presence wrapper for Python
-dev-python/pyscroll 2.19.2 2.23 2.24 2.26 2.27 9999: Animated scrolling maps for Pygame
+dev-python/pyscroll 2.19.2 2.23 2.24 2.26 2.27 2.28 9999: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24 3.25 3.26 3.30 9999: Python library to read Tiled Map Editor's TMX maps
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 21.0.0 21.1.0 9999: Tor control protocol implementation for Python
 dev-python/youtube-search-python 1.4.5 1.4.6 1.4.8 1.4.9 1.5.1 9999: YouTube scraping library
-games-rpg/tuxemon 0.4.32 9999: Open source monster-fighting RPG
+games-rpg/tuxemon 0.4.32 0.4.33 9999: Open source monster-fighting RPG
 gui-libs/libdecoration 9999: Helps Wayland clients handle window decorations
 media-gfx/glslviewer 1.6.8 1.7.0 2.0.0 9999: Console-based sandbox for GLSL shaders
 media-gfx/opentoonz 1.5.0 9999: An open-source full-featured 2D animation creation software
