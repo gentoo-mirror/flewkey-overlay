@@ -35,9 +35,10 @@ RDEPEND="
 	dev-python/pillow
 	dev-python/requests
 	dev-python/prompt_toolkit
-	dev-python/pygame
+	>=dev-python/pygame-2.1.0
 	dev-python/pytmx
 	dev-python/pyscroll
+	dev-python/pyyaml
 	dev-python/neteria
 	rumble? ( dev-libs/libshake )
 "
