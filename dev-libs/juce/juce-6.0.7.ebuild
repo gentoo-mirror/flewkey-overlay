@@ -25,7 +25,10 @@ DEPEND="
 	net-libs/webkit-gtk
 	net-misc/curl
 "
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${DEPEND}
+	app-eselect/eselect-juce
+"
 BDEPEND="
 	>=dev-util/cmake-3.12
 	virtual/pkgconfig
@@ -76,9 +79,12 @@ src_install() {
 }
 
 pkg_postinst() {
-	elog "Since different applications use different versions of JUCE,"
-	elog "binaries have not been installed to /usr/bin."
-	elog "I've yet to make an eselect module for this stuff, so you may want"
-	elog "to symlink /usr/local/bin/Projucer to /opt/juce-${PV}/Projucer (or"
-	elog "whatever) to run them easier."
+	if [[ ! -f ${EROOT}/usr/bin/juceaide ]]; then
+		eselect juceaide set "${P}"
+		einfo "${P} set as the default juceaide version"
+	fi
+	if use projucer && [[ ! -f ${EROOT}/usr/bin/Projucer ]]; then
+		eselect projucer set "${P}"
+		einfo "${P} set as the default Projucer version"
+	fi
 }
