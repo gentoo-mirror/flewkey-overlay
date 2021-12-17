@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=JUCE eselect modules
+EAPI=8
+HOMEPAGE=https://git.sdf.org/flewkey/eselect-juce
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=app-admin/eselect
+SLOT=0
+SRC_URI=https://git.sdf.org/flewkey/eselect-juce/archive/1.0.0.tar.gz -> eselect-juce-1.0.0.tar.gz
+_md5_=91eae5c7f24883acdd028bb9af356884

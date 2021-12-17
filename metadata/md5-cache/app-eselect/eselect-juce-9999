@@ -1,11 +1,12 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DESCRIPTION=C library for reading and writing YAML
+DESCRIPTION=JUCE eselect modules
 EAPI=8
-HOMEPAGE=https://github.com/tlsa/libcyaml/
+HOMEPAGE=https://git.sdf.org/flewkey/eselect-juce
 INHERIT=git-r3
-LICENSE=ISC
+LICENSE=GPL-2
 PROPERTIES=live
+RDEPEND=app-admin/eselect
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=0c30f95f51fb4c09c9af13e3e7f7a0f0
+_md5_=91eae5c7f24883acdd028bb9af356884
