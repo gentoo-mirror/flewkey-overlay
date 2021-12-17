@@ -18,7 +18,7 @@ else
 	EGIT_REPO_URI="https://github.com/hugolabe/Wike.git"
 fi
 
-DESCRIPTION="Tor control protocol implementation for Python"
+DESCRIPTION="Wikipedia reader for GNOME"
 HOMEPAGE="https://github.com/hugolabe/Wike"
 LICENSE="GPL-3"
 SLOT="0"

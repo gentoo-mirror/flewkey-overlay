@@ -1,25 +1,25 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit cmake
 
-if [[ ${PV} != *9999* ]]; then
+if [[ ${PV} == 9999 ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/juce-framework/JUCE.git"
+else
 	MY_PN="JUCE"
 	MY_P="${MY_PN}-${PV}"
 	S="${WORKDIR}/${MY_P}"
 	SRC_URI="https://github.com/juce-framework/${MY_PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
-else
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/juce-framework/JUCE.git"
 fi
 
 DESCRIPTION="A cross-platform C++ framework"
 HOMEPAGE="https://juce.com/"
 LICENSE="juce-6"
-SLOT="6.1.1"
+SLOT="6.1.3"
 IUSE="+projucer extras examples"
 
 DEPEND="
