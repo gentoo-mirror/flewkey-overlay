@@ -30,13 +30,13 @@ dev-python/libversion 1.2.3 1.2.4 9999: Python bindings for libversion
 dev-python/markdown-captions 2 9999: Python bindings for freetype
 dev-python/neteria 1.0.2: Open source game networking framework for Python
 dev-python/pyclip 0.5.4 9999: Python clipboard module
-dev-python/pyglm 2.5.4 9999: Fast OpenGL Mathematics
+dev-python/pyglm 2.5.4 2.5.7 9999: Fast OpenGL Mathematics
 dev-python/pypresence 4.2.0 4.2.1 9999: Discord IPC and Rich Presence wrapper for Python
-dev-python/pyscroll 2.19.2 2.23 2.24 2.26 2.27 2.28 9999: Animated scrolling maps for Pygame
-dev-python/pytmx 3.24 3.25 3.26 3.30 9999: Python library to read Tiled Map Editor's TMX maps
+dev-python/pyscroll 2.19.2 2.23 2.24 2.26 2.27 2.28 2.29 9999: Animated scrolling maps for Pygame
+dev-python/pytmx 3.24 3.25 3.26 3.30 3.31 9999: Python library to read Tiled Map Editor's TMX maps
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 21.0.0 21.1.0 9999: Tor control protocol implementation for Python
-dev-python/youtube-search-python 1.4.5 1.4.6 1.4.8 1.4.9 1.5.1 9999: YouTube scraping library
+dev-python/youtube-search-python 1.4.5 1.4.6 1.4.8 1.4.9 1.5.1 1.5.3 9999: YouTube scraping library
 games-emulation/retro-gtk 1.0.2 9999: GTK libretro frontend
 games-rpg/tuxemon 0.4.32 0.4.33 9999: Open source monster-fighting RPG
 gui-libs/libdecoration 9999: Helps Wayland clients handle window decorations
