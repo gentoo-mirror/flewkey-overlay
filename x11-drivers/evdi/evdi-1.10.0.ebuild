@@ -26,3 +26,9 @@ BDEPEND="sys-kernel/linux-headers"
 
 MODULE_NAMES="evdi(video:${S})"
 CONFIG_CHECK="~FB_VIRTUAL ~I2C"
+
+src_prepare() {
+	default
+	local KVER=$(cat "${KERNEL_DIR}/include/config/kernel.release")
+	sed -i "1i KVER := ${KVER}" "${S}/Makefile"
+}
