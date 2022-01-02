@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libusb:1 sys-libs/zlib
+DESCRIPTION=Tools for Allwinner A10 devices
+EAPI=8
+HOMEPAGE=http://linux-sunxi.org/
+INHERIT=git-r3
+IUSE=+extra
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=virtual/libusb:1 sys-libs/zlib
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=e7557cb746009860ce405875fd6d4e19
