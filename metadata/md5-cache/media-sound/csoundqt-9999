@@ -1,13 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=configure postinst postrm prepare unpack
+DEFINED_PHASES=configure install postinst postrm preinst prepare unpack
 DEPEND=dev-qt/qtcore:5 dev-qt/qtwidgets:5 media-libs/libsndfile media-sound/csound
 DESCRIPTION=The default frontend for Csound
-EAPI=7
+EAPI=8
 HOMEPAGE=https://csoundqt.github.io/
-INHERIT=qmake-utils desktop xdg-utils git-r3
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=qmake-utils xdg git-r3
 LICENSE=LGPL-2.1
 PROPERTIES=live
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtwidgets:5 media-libs/libsndfile media-sound/csound
 SLOT=0
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1	desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=57d094c1b34957fe880b9a3f5c27610b
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=cb5c83c12cedf0b23d9a27ddf38df948
