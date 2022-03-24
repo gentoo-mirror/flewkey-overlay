@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=app-arch/unzip
 SLOT=0
 SRC_URI=https://lightcord.deroku.xyz/api/v1/gh/releases/Lightcord/Lightcord/0.1.4-quickfix/lightcord-linux-x64.zip -> lightcord-bin-0.1.4_p1.zip https://raw.githubusercontent.com/Lightcord/LightcordLogos/master/lightcord/lightcord.png
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
 _md5_=6f040190b9c7409bbc27f423e9b7350b
