@@ -23,7 +23,7 @@ dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
 dev-libs/tllist 1.0.4 1.0.5 9999: A C header file only implementation of a typed linked list
 dev-python/bashlex 0.15 0.16: Python parser for bash
 dev-python/easydict 1.9: Access dict values as attributes
-dev-python/ffpyplayer 4.3.2: Python bindings for the FFmpeg media player
+dev-python/ffpyplayer 4.3.2 4.3.5 9999: Python bindings for the FFmpeg media player
 dev-python/freetype-py 2.2.0 9999: Python bindings for freetype
 dev-python/gbinder 1.0.0 9999: Python bindings for libgbinder
 dev-python/gpxpy 1.4.2 1.5.0 9999: GPX file parser and GPS track manipulation library
@@ -31,20 +31,20 @@ dev-python/hkdf 0.0.3 9999: Python implementation of HKDF
 dev-python/libversion 1.2.3 1.2.4 9999: Python bindings for libversion
 dev-python/markdown-captions 2 2.1.1 9999: Python bindings for freetype
 dev-python/neteria 1.0.2: Open source game networking framework for Python
-dev-python/pyclip 0.5.4 9999: Python clipboard module
+dev-python/pyclip 0.5.4 0.6.0 9999: Python clipboard module
 dev-python/pyglm 2.5.4 2.5.7 9999: Fast OpenGL Mathematics
 dev-python/pypresence 4.2.0 4.2.1 9999: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.19.2 2.23 2.24 2.26 2.27 2.28 2.29 9999: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24 3.25 3.26 3.30 3.31 9999: Python library to read Tiled Map Editor's TMX maps
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
-dev-python/txtorcon 21.0.0 21.1.0 9999: Tor control protocol implementation for Python
-dev-python/youtube-search-python 1.4.5 1.4.6 1.4.8 1.4.9 1.5.1 1.5.3 1.6.0 1.6.2 9999: YouTube scraping library
+dev-python/txtorcon 21.0.0 21.1.0 22.0.0 9999: Tor control protocol implementation for Python
+dev-python/youtube-search-python 1.4.5 1.4.6 1.4.8 1.4.9 1.5.1 1.5.3 1.6.0 1.6.2 1.6.3 9999: YouTube scraping library
 games-emulation/retro-gtk 1.0.2 9999: GTK libretro frontend
 games-rpg/tuxemon 0.4.32 0.4.33 9999: Open source monster-fighting RPG
 gui-apps/fuzzel 1.7.0 9999: Application launcher for Wayland
 gui-libs/libdecor 0.1.0 9999: A client-side decorations library for Wayland clients
 media-gfx/glslviewer 1.6.8 1.7.0 2.0.0 2.0.4 9999: Console-based sandbox for GLSL shaders
-media-gfx/opentoonz 1.5.0 9999: An open-source full-featured 2D animation creation software
+media-gfx/opentoonz 1.5.0 1.6.0 9999: An open-source full-featured 2D animation creation software
 media-libs/libaudec 0.3.4 9999: A library for reading and resampling audio files
 media-libs/soundpipe 9999: A lightweight music DSP library
 media-libs/verovio 3.4.1 3.5.0 3.6.0 3.7.0 3.8.0 3.8.1 3.9.0 9999: Music engraving library
