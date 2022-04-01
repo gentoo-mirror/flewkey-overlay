@@ -1,13 +1,12 @@
-BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install unpack
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile install
 DEPEND=dev-libs/glib
 DESCRIPTION=Library of glib utilities
 EAPI=8
 HOMEPAGE=https://github.com/sailfishos/libglibutil
-INHERIT=git-r3
+KEYWORDS=~amd64
 LICENSE=BSD
-PROPERTIES=live
 RDEPEND=dev-libs/glib
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+SRC_URI=https://github.com/sailfishos/libglibutil/archive/1.0.62.tar.gz -> libglibutil-1.0.62.tar.gz
 _md5_=4521ef6a4c0965f06021e27eb019030d
