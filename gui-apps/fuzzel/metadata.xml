@@ -5,7 +5,4 @@
 		<email>flewkey@2a03.party</email>
 		<name>Ryan Fox</name>
 	</maintainer>
-	<use>
-		<flag name="system-freeverb3">Use the system-wide media-libs/freeverb3 instead of bundled.</flag>
-	</use>
 </pkgmetadata>
