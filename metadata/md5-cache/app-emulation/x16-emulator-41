@@ -1,0 +1,11 @@
+BDEPEND=rom? ( dev-embedded/cc65 ) media-libs/libsdl2
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Emulator for the Commander X16 computer
+EAPI=8
+HOMEPAGE=https://github.com/commanderx16/x16-emulator
+IUSE=+rom
+KEYWORDS=~amd64
+LICENSE=BSD-2
+SLOT=0
+SRC_URI=https://github.com/commanderx16/x16-emulator/archive/r41.tar.gz -> x16-emulator-41.tar.gz https://github.com/commanderx16/x16-rom/archive/r41.tar.gz -> x16-rom-41.tar.gz
+_md5_=888e9bc690ab5930c000c5a2e9b945ad
