@@ -1,9 +1,9 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{6..9} )
+PYTHON_COMPAT=( python3_{6..10} )
 DISTUTILS_USE_SETUPTOOLS=bdepend
 
 inherit distutils-r1
@@ -27,7 +27,7 @@ SLOT="0"
 RDEPEND="
 	dev-python/freetype-py
 	dev-python/jinja
-	dev-python/lark-parser
+	dev-python/lark
 	dev-python/numpy
 	dev-python/pyglm
 	dev-python/pygobject
