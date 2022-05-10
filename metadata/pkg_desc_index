@@ -70,7 +70,7 @@ media-video/olive 0.1.2: Olive Video Editor
 net-im/lightcord-bin 0.1.4 0.1.4_p1 0.1.5 0.1.9: A fancy, customizable Discord client
 net-misc/magic-wormhole 0.12.0 9999: Safe, simple file sharing
 net-wireless/artemis 3.2.1 9999: Radio Signals Recognition Manual
-sci-visualization/plots 0.6.1 9999: Graph plotting app for GNOME
+sci-visualization/plots 0.6.1 0.6.2 9999: Graph plotting app for GNOME
 x11-drivers/displaylink-driver 5.4.1.55.174 5.5.0.59.118 5.5.0.59.151: Driver for modern DisplayLink devices
 x11-drivers/evdi 1.9.1 1.10.0 1.10.1 1.11.0 9999: Kernel module for managing screens
 x11-libs/libevdi 1.9.1 1.10.0 1.10.1 1.11.0 9999: Library for managing screens
