@@ -1,5 +1,6 @@
 app-crypt/pinentry-bemenu 0.7.2 0.9.0 0.10.0 0.11.0 9999: Pinentry based on bemenu
 app-dicts/artha 1.0.5: Cross-platform offline English thesaurus using WordNet
+app-editors/apostrophe 2.6.3 9999: A distraction free Markdown editor
 app-emulation/cemu 1.3 9999: TI-84 Plus CE emulator
 app-emulation/highscore 40.0 9999: Retro gaming application for GNOME
 app-emulation/x16-emulator 38 39 41 9999: Emulator for the Commander X16 computer
@@ -20,7 +21,6 @@ dev-libs/mustach 0.99 1.1.0 1.1.1 1.2.0 1.2.1 1.2.2 9999: C implementation of mu
 dev-libs/openssl 1.1.1i-r1 1.1.1k-r1: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/reproc 14.0.0 14.1.0 14.2.0 14.2.1 14.2.2 14.2.3 14.2.4 9999: A library for dealing with external processes
 dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
-dev-libs/tllist 1.0.4 1.0.5 9999: A C header file only implementation of a typed linked list
 dev-python/bashlex 0.15 0.16: Python parser for bash
 dev-python/easydict 1.9: Access dict values as attributes
 dev-python/ffpyplayer 4.3.2 4.3.5 9999: Python bindings for the FFmpeg media player
@@ -33,6 +33,7 @@ dev-python/markdown-captions 2 2.1.1 9999: Python bindings for freetype
 dev-python/neteria 1.0.2: Open source game networking framework for Python
 dev-python/pyclip 0.5.4 0.6.0 9999: Python clipboard module
 dev-python/pyglm 2.5.4 2.5.7 9999: Fast OpenGL Mathematics
+dev-python/pypandoc 1.8 9999: Thin wrapper for pandoc
 dev-python/pypresence 4.2.0 4.2.1 9999: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.19.2 2.23 2.24 2.26 2.27 2.28 2.29 9999: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24 3.25 3.26 3.30 3.31 9999: Python library to read Tiled Map Editor's TMX maps
