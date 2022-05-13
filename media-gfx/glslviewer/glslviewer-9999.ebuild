@@ -6,7 +6,7 @@ EAPI=8
 if [[ ${PV} != *9999* ]]; then
 	MY_PN="glslViewer"
 	MY_P="${MY_PN}-${PV}"
-	ADA_REF="416db9da40d9b22bca1ca088672946d9d8e44f67"
+	ADA_REF="b3f4158d53b34454aa3b3837acf50f436050a346"
 	MINIAUDIO_V="0.10.42"
 	MINIAUDIO_REF="dbca7a3b44594e0226f887472b31f54aa5f14214"
 	S="${WORKDIR}/${MY_P}"
@@ -26,8 +26,9 @@ DESCRIPTION="Console-based sandbox for GLSL shaders"
 HOMEPAGE="http://patriciogonzalezvivo.com/2015/glslViewer/"
 LICENSE="BSD"
 SLOT="0"
+IUSE="ncurses"
 
-DEPEND=""
+DEPEND="ncurses? ( sys-libs/ncurses )"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
