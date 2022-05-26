@@ -10,22 +10,20 @@ inherit distutils-r1
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/spyoungtech/pyclip.git"
+	EGIT_REPO_URI="https://github.com/NicklasTegner/pypandoc.git"
 else
-	SRC_URI="https://github.com/spyoungtech/pyclip/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/NicklasTegner/pypandoc/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
-DESCRIPTION="Python clipboard module"
-HOMEPAGE="https://pypi.org/project/pyclip/"
-LICENSE="Apache-2.0"
+DESCRIPTION="Thin wrapper for pandoc"
+HOMEPAGE="https://github.com/NicklasTegner/pypandoc"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="
-	gui-apps/wl-clipboard
-	x11-misc/xclip
+	${DEPEND}
+	app-text/pandoc
 "
 BDEPEND=""
-
-distutils_enable_tests pytest
