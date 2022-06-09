@@ -26,4 +26,4 @@ RDEPEND="
 	${DEPEND}
 	app-text/pandoc
 "
-BDEPEND=""
+BDEPEND=">=dev-python/pip-8.1.10"

@@ -42,7 +42,7 @@ RDEPEND="
 	dev-python/python-levenshtein
 	dev-python/regex
 "
-BDEPEND=""
+BDEPEND="dev-lang/sassc"
 
 pkg_postinst() {
 	xdg_pkg_postinst
