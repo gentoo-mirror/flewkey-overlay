@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,8 +18,8 @@ fi
 
 DESCRIPTION="A cross-platform C++ framework"
 HOMEPAGE="https://juce.com/"
-LICENSE="juce-6"
-SLOT="6.1.4"
+LICENSE="JUCE-7-EULA"
+SLOT="7.0.0"
 IUSE="+projucer extras examples"
 
 DEPEND="
@@ -33,7 +33,7 @@ RDEPEND="
 	app-eselect/eselect-juce
 "
 BDEPEND="
-	>=dev-util/cmake-3.12
+	>=dev-util/cmake-3.15
 	virtual/pkgconfig
 "
 
