@@ -21,11 +21,22 @@ HOMEPAGE="https://github.com/meejah/txtorcon"
 LICENSE="MIT"
 SLOT="0"
 
+DEPEND=""
 RDEPEND="
-	>=dev-python/twisted-15.5.0[${PYTHON_USEDEP},crypt]
+	|| (
+		>=dev-python/twisted-22.4.0-r2[${PYTHON_USEDEP},ssl]
+		>=dev-python/twisted-15.5.0[${PYTHON_USEDEP},crypt]
+	)
 	>=dev-python/zope-interface-3.6.1[${PYTHON_USEDEP}]
 	dev-python/incremental[${PYTHON_USEDEP}]
 	dev-python/automat[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 "
-BDEPEND=""
+BDEPEND="
+	test? (
+		dev-python/mock[${PYTHON_USEDEP}]
+		sys-process/lsof
+	)
+"
+
+distutils_enable_tests pytest
