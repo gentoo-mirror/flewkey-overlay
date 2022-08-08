@@ -5,21 +5,18 @@ EAPI=8
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/mer-hybris/libgbinder.git"
+	EGIT_REPO_URI="https://github.com/sailfishos/libglibutil.git"
 else
-	MY_PN="lib${PN}"
-	MY_P="${MY_PN}-${PV}"
-	S="${WORKDIR}/${MY_P}"
-	SRC_URI="https://github.com/mer-hybris/libgbinder/archive/${PV}.tar.gz  -> ${P}.tar.gz"
+	SRC_URI="https://github.com/sailfishos/libglibutil/archive/${PV}.tar.gz  -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
-DESCRIPTION="GLib-style interface to binder"
-HOMEPAGE="https://github.com/mer-hybris/libgbinder"
+DESCRIPTION="Library of glib utilities"
+HOMEPAGE="https://github.com/sailfishos/libglibutil"
 LICENSE="BSD"
 SLOT="0"
 
-DEPEND="dev-libs/libglibutil"
+DEPEND="dev-libs/glib"
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 

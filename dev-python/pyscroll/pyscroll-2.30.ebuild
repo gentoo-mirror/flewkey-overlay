@@ -12,7 +12,10 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/bitcraft/pyscroll.git"
 else
-	SRC_URI="https://github.com/bitcraft/pyscroll/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz"
+	MY_PV="6ddbface62a6aa90f3cc373416fdb9724a85056a"
+	MY_P="${PN}-${MY_PV}"
+	S="${WORKDIR}/${MY_P}"
+	SRC_URI="https://github.com/bitcraft/pyscroll/archive/${MY_PV}.tar.gz -> ${P}.gh.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
