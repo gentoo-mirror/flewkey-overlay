@@ -39,6 +39,7 @@ DEPEND="
 	media-libs/libjpeg-turbo
 	>=media-libs/libmypaint-1.3.0:=
 	media-libs/libpng:=
+	media-libs/opencv
 	>=sci-libs/superlu-4.1:=
 	sys-libs/zlib
 	virtual/cblas
