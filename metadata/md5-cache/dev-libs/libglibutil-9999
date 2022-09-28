@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/glib
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=4521ef6a4c0965f06021e27eb019030d
+_md5_=0fcef9b16545e0907930df44c69a97fd

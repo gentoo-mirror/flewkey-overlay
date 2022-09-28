@@ -21,7 +21,6 @@ media-libs/verovio:humdrum - Enable Humdrum support
 media-libs/verovio:musicxml - Enable MusicXML support
 media-libs/verovio:pae - Enable Plaine and Easie support
 media-plugins/bslizr:uwu - Enable UwU skin
-media-plugins/dragonfly-reverb:system-freeverb3 - Use the system-wide media-libs/freeverb3 instead of bundled.
 media-plugins/geonkick:lv2 - Build LV2 plug-in
 media-plugins/geonkick:standalone - Build standalone application
 media-plugins/geonkick:vst3 - Build VST3 plug-in
