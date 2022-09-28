@@ -3,8 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..10} )
-DISTUTILS_USE_SETUPTOOLS=bdepend
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{8..11} )
 
 inherit distutils-r1
 
@@ -12,7 +12,7 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/NicklasTegner/pypandoc.git"
 else
-	SRC_URI="https://github.com/NicklasTegner/pypandoc/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/NicklasTegner/pypandoc/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
@@ -22,8 +22,5 @@ LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""
-RDEPEND="
-	${DEPEND}
-	app-text/pandoc
-"
+RDEPEND="app-text/pandoc"
 BDEPEND=">=dev-python/pip-8.1.10"

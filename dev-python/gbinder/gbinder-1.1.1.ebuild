@@ -1,22 +1,22 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-PYTHON_COMPAT=( python3_9 )
-DISTUTILS_USE_SETUPTOOLS=no
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{8..11} )
 
 inherit distutils-r1
 
-if [[ ${PV} != *9999* ]]; then
+if [[ ${PV} == 9999 ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/erfanoabdi/gbinder-python.git"
+else
 	MY_PN="${PN}-python"
 	MY_P="${MY_PN}-${PV}"
 	S="${WORKDIR}/${MY_P}"
-	SRC_URI="https://github.com/erfanoabdi/gbinder-python/archive/${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/erfanoabdi/gbinder-python/archive/${PV}.tar.gz -> ${P}.gh.tar.gz"
 	KEYWORDS="~amd64"
-else
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/erfanoabdi/gbinder-python.git"
 fi
 
 DESCRIPTION="Python bindings for libgbinder"
@@ -31,6 +31,8 @@ BDEPEND="
 	dev-python/cython[${PYTHON_USEDEP}]
 "
 
-python_compile() {
-	distutils-r1_python_compile --cython
+src_configure() {
+	cython -3 gbinder.pyx -o gbinder.c || die
 }
+
+distutils_enable_tests pytest

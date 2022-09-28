@@ -8,12 +8,12 @@ if [[ ${PV} == 9999 ]]; then
 	EGIT_REPO_URI="https://github.com/michaelwillis/dragonfly-reverb.git"
 	EGIT_SUBMODULES=( dpf dpf/dgl/src/pugl-upstream )
 else
-	DPF_REF="39cd4986bfa489fa43ef84cf05b4871d14710135"
-	PUGL_REF="0fdc19059de5214973ae6ec0d775470f94ceb1c9"
+	DPF_REF="93ce2476d997f524cd2c2e749f7e672905d126b6"
+	PUGL_REF="48032d1c3cb59e13deb2c3ec66afcf3ed65d97f4"
 	SRC_URI="
-		https://github.com/michaelwillis/dragonfly-reverb/archive/${PV}.tar.gz -> ${P}.tar.gz
-		https://github.com/DISTRHO/DPF/archive/${DPF_REF}.tar.gz -> dpf-${DPF_REF}.tar.gz
-		https://github.com/DISTRHO/pugl/archive/${PUGL_REF}.tar.gz -> pugl-${PUGL_REF}.tar.gz
+		https://github.com/michaelwillis/dragonfly-reverb/archive/${PV}.tar.gz -> ${P}.gh.tar.gz
+		https://github.com/DISTRHO/DPF/archive/${DPF_REF}.tar.gz -> dpf-${DPF_REF}.gh.tar.gz
+		https://github.com/DISTRHO/pugl/archive/${PUGL_REF}.tar.gz -> pugl-${PUGL_REF}.gh.tar.gz
 	"
 	KEYWORDS="~amd64"
 fi
@@ -22,13 +22,10 @@ DESCRIPTION="A set of free reverb effects"
 HOMEPAGE="https://michaelwillis.github.io/dragonfly-reverb/"
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="system-freeverb3"
 
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND="
-	system-freeverb3? ( media-libs/freeverb3 )
-	system-freeverb3? ( media-libs/libsamplerate )
 	virtual/jack
 	x11-libs/libX11
 "
@@ -47,9 +44,6 @@ src_unpack() {
 
 src_compile() {
 	export SKIP_STRIPPING=true
-	if use system-freeverb3; then
-		export SYSTEM_FREEVERB3=true
-	fi
 	default_src_compile
 }
 

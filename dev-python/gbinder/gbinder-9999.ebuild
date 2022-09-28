@@ -15,7 +15,7 @@ else
 	MY_PN="${PN}-python"
 	MY_P="${MY_PN}-${PV}"
 	S="${WORKDIR}/${MY_P}"
-	SRC_URI="https://github.com/erfanoabdi/gbinder-python/archive/${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/erfanoabdi/gbinder-python/archive/${PV}.tar.gz -> ${P}.gh.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
