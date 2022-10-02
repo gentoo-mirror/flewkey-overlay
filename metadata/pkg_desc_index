@@ -29,9 +29,12 @@ dev-python/freetype-py 2.2.0 2.3.0 9999: Python bindings for freetype
 dev-python/gbinder 1.1.1 9999: Python bindings for libgbinder
 dev-python/gpxpy 1.4.2 1.5.0 9999: GPX file parser and GPS track manipulation library
 dev-python/hkdf 0.0.3 9999: Python implementation of HKDF
+dev-python/librosa 0.8.1 0.9.2 9999: Audio / music analysis library for Python
 dev-python/libversion 1.2.3 1.2.4 9999: Python bindings for libversion
+dev-python/llvmlite 9999: Lightweight LLVM bindings for Python
 dev-python/markdown-captions 2.1.1 2.1.2 9999: Image captions for python-markdown
 dev-python/neteria 1.0.2 9999: Open source game networking framework for Python
+dev-python/numba 0.56.2 9999: NumPy aware dynamic Python compiler using LLVM
 dev-python/pure-protobuf 2.1.0 9999: Protobufs with dataclass support
 dev-python/pygame-menu 4.2.8 9999: A pygame library for menus and GUIs
 dev-python/pyglm 2.5.4 2.5.7 9999: Fast OpenGL Mathematics
@@ -39,8 +42,13 @@ dev-python/pypandoc 1.9 9999: Thin wrapper for pandoc
 dev-python/pypresence 4.2.0 4.2.1 9999: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.19.2 2.23 2.24 2.26 2.27 2.28 2.29 2.30 9999: Animated scrolling maps for Pygame
 dev-python/pytmx 3.24 3.25 3.26 3.30 3.31 9999: Python library to read Tiled Map Editor's TMX maps
+dev-python/resampy 0.4.2 9999: Efficient resampler for Python
+dev-python/sounddevice 0.4.5 9999: PortAudio bindings for Python
+dev-python/soundfile 0.11.0 9999: An audio library for Python
+dev-python/soxr 0.3.2 9999: Resampling library for Python
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 22.0.0 9999: Tor control protocol implementation for Python
+dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
 games-emulation/retro-gtk 1.0.2 9999: GTK libretro frontend
 games-rpg/tuxemon 0.4.32 0.4.33 0.4.34 9999: Open source monster-fighting RPG
 gui-apps/fuzzel 1.7.0 9999: Application launcher for Wayland
