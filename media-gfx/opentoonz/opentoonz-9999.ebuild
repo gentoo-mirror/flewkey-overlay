@@ -15,7 +15,7 @@ fi
 
 DESCRIPTION="An open-source full-featured 2D animation creation software"
 HOMEPAGE="https://opentoonz.github.io/"
-LICENSE="BSD"
+LICENSE="BSD libtiff"
 SLOT="0"
 
 DEPEND="
