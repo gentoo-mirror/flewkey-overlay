@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit udev
+inherit udev systemd
 
 AR_DATE="2022-08"
 AR_NAME="DisplayLink%20USB%20Graphics%20Software%20for%20Ubuntu5.6.1-EXE.zip"
@@ -20,6 +20,7 @@ DESCRIPTION="Driver for modern DisplayLink devices"
 HOMEPAGE="http://www.displaylink.com/downloads/ubuntu"
 LICENSE="DisplayLink-EULA"
 SLOT="0"
+IUSE="systemd"
 
 DEPEND="app-arch/unzip"
 RDEPEND="
@@ -39,7 +40,15 @@ src_prepare() {
 	default
 	source "${S}/udev-installer.sh" && create_udev_rules_file "${S}/99-dlm.rules"
 	source "${S}/udev-installer.sh" && displaylink_bootstrapper_code > "${S}/udev.sh"
-	cat "${FILESDIR}/openrc_start_stop_functions" >> "${S}/udev.sh"
+	if use systemd; then
+		sed -i '/^  chmod.*displaylink-driver.service/d' "${S}/displaylink-installer.sh"
+		sed -i 's;^  cat > /.*/displaylink-driver.service <<EOF;  cat <<EOF;' "${S}/displaylink-installer.sh"
+		sed -i '/^if.*$(id -u).*then/i return' "${S}/displaylink-installer.sh"
+		source "${S}/udev-installer.sh" && systemd_start_stop_functions >> "${S}/udev.sh"
+		source "${S}/displaylink-installer.sh" && add_systemd_service > "${S}/displaylink-driver.service"
+	else
+		cat "${FILESDIR}/openrc_start_stop_functions" >> "${S}/udev.sh"
+	fi
 	source "${S}/udev-installer.sh" && create_main_function >> "${S}/udev.sh"
 }
 
@@ -55,7 +64,11 @@ src_install() {
 	doins "${S}/ella-dock-release.spkg"
 	doins "${S}/firefly-monitor-release.spkg"
 	doins "${S}/ridge-dock-release.spkg"
-	newinitd "${FILESDIR}/dlm.init.d" "dlm"
+	if use systemd; then
+		systemd_dounit "${S}/displaylink-driver.service"
+	else
+		newinitd "${FILESDIR}/dlm.init.d" "dlm"
+	fi
 	udev_dorules "${S}/99-dlm.rules"
 	insopts -m744
 	doins "${S}/udev.sh"
