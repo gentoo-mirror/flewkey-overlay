@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
-inherit python-single-r1 meson xdg
+inherit python-single-r1 meson xdg gnome2-utils
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
@@ -29,19 +29,20 @@ DEPEND="
 "
 RDEPEND="
 	${DEPEND}
-	net-libs/webkit-gtk:4.1
+	net-libs/webkit-gtk:5
 	${PYTHON_DEPS}
 	$(python_gen_cond_dep '
 		dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 		dev-python/cloudscraper[${PYTHON_USEDEP}]
-		dev-python/emoji[${PYTHON_USEDEP}]
 		dev-python/dateparser[${PYTHON_USEDEP}]
+		dev-python/emoji[${PYTHON_USEDEP}]
 		dev-python/keyring[${PYTHON_USEDEP}]
 		dev-python/lxml[${PYTHON_USEDEP}]
 		dev-python/natsort[${PYTHON_USEDEP}]
 		dev-python/pillow[${PYTHON_USEDEP}]
 		dev-python/pure-protobuf[${PYTHON_USEDEP}]
 		dev-python/python-magic[${PYTHON_USEDEP}]
+		dev-python/rarfile[${PYTHON_USEDEP}]
 		dev-python/unidecode[${PYTHON_USEDEP}]
 		dev-python/urllib3[brotli,${PYTHON_USEDEP}]
 	')
@@ -52,4 +53,9 @@ src_install() {
 	meson_install
 	python_optimize
 	python_fix_shebang "${D}/usr/bin/komikku"
+}
+
+pkg_postinst() {
+	xdg_icon_cache_update
+	gnome2_schemas_update
 }
