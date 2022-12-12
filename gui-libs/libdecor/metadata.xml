@@ -5,4 +5,7 @@
 		<email>flewkey@2a03.party</email>
 		<name>Ryan Fox</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="freedesktop-gitlab">libdecor/libdecor</remote-id>
+	</upstream>
 </pkgmetadata>
