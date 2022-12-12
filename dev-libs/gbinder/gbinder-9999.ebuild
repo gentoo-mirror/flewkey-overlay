@@ -24,7 +24,7 @@ RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
 src_compile() {
-	emake KEEP_SYMBOLS=1
+	emake KEEP_SYMBOLS=1 LIBDIR="/usr/$(get_libdir)"
 }
 
 src_install() {
