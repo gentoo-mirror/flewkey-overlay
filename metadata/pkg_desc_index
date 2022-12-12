@@ -1,4 +1,4 @@
-app-crypt/pinentry-bemenu 0.7.2 0.9.0 0.10.0 0.11.0 9999: Pinentry based on bemenu
+app-crypt/pinentry-bemenu 0.12.0 9999: Pinentry based on bemenu
 app-dicts/artha 1.0.5: Cross-platform offline English thesaurus using WordNet
 app-editors/apostrophe 2.6.3 9999: A distraction free Markdown editor
 app-emulation/cemu 1.3 9999: TI-84 Plus CE emulator
@@ -23,7 +23,6 @@ dev-libs/reproc 14.0.0 14.1.0 14.2.0 14.2.1 14.2.2 14.2.3 14.2.4 9999: A library
 dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
 dev-python/bashlex 0.15 0.16: Python parser for bash
 dev-python/dateparser 1.1.1 9999: A date parser for scraping
-dev-python/easydict 1.9: Access dict values as attributes
 dev-python/ffpyplayer 4.3.2 4.3.5 9999: Python bindings for the FFmpeg media player
 dev-python/freetype-py 2.2.0 2.3.0 9999: Python bindings for freetype
 dev-python/gbinder 1.1.1 9999: Python bindings for libgbinder
@@ -37,7 +36,7 @@ dev-python/neteria 1.0.2 9999: Open source game networking framework for Python
 dev-python/numba 0.56.2 9999: NumPy aware dynamic Python compiler using LLVM
 dev-python/pure-protobuf 2.1.0 9999: Protobufs with dataclass support
 dev-python/pygame-menu 4.2.8 9999: A pygame library for menus and GUIs
-dev-python/pyglm 2.5.4 2.5.7 9999: Fast OpenGL Mathematics
+dev-python/pyglm 2.5.4 2.5.7 2.6.0 9999: Fast OpenGL Mathematics
 dev-python/pypandoc 1.9 9999: Thin wrapper for pandoc
 dev-python/pypresence 4.2.0 4.2.1 9999: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.19.2 2.23 2.24 2.26 2.27 2.28 2.29 2.30 9999: Animated scrolling maps for Pygame
@@ -51,7 +50,6 @@ dev-python/txtorcon 22.0.0 9999: Tor control protocol implementation for Python
 dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
 games-emulation/retro-gtk 1.0.2 9999: GTK libretro frontend
 games-rpg/tuxemon 0.4.32 0.4.33 0.4.34 9999: Open source monster-fighting RPG
-gui-apps/fuzzel 1.7.0 9999: Application launcher for Wayland
 gui-libs/libdecor 0.1.0 0.1.1 9999: A client-side decorations library for Wayland clients
 media-gfx/glslviewer 1.6.8 1.7.0 2.0.0 2.0.4 2.0.5 9999: Console-based sandbox for GLSL shaders
 media-gfx/opentoonz 1.5.0 1.6.0 9999: An open-source full-featured 2D animation creation software
