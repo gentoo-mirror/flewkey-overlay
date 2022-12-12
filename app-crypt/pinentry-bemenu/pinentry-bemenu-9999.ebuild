@@ -19,7 +19,6 @@ LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND="
-	dev-libs/bemenu
 	dev-libs/libassuan
 	dev-libs/libgpg-error
 	dev-libs/popt
