@@ -13,7 +13,7 @@ else
 	MY_PN="Komikku"
 	MY_P="${MY_PN}-v${PV}"
 	S="${WORKDIR}/${MY_P}"
-	SRC_URI="https://gitlab.com/valos/Komikku/-/archive/v${PV}/${MY_P}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://gitlab.com/valos/Komikku/-/archive/v${PV}/${MY_P}.tar.bz2 -> ${P}.tar.bz2"
 	KEYWORDS="~amd64"
 fi
 
