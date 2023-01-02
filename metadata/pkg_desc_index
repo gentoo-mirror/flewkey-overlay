@@ -74,6 +74,7 @@ media-plugins/zam-plugins 3.13 3.14 9999: A collection of high-quality audio plu
 media-plugins/zplugins 0.2.4 0.2.5 9999: A collection of audio DSP plugins
 media-sound/ardour 9999: Digital Audio Workstation
 media-sound/csoundqt 0.9.8.1 1.1.0 9999: The default frontend for Csound
+media-sound/eartag 0.3.1 9999: A simple music tag editor.
 media-sound/klystrack 1.7.6 9999: A really cool fakebit tracker
 media-sound/pyterm 0.5_beta6 0.5_beta10 0.5 0.6_beta2: Command line YouTube music streamer
 media-video/olive 0.1.2: Olive Video Editor
