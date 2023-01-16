@@ -24,12 +24,14 @@ RESTRICT="test"
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-BDEPEND="sys-devel/llvm:14"
+BDEPEND="sys-devel/llvm:13"
 
-# It's bad practice to ship unreleased patches, but this is too convenient.
-PATCHES=( "${FILESDIR}/${P}-830.patch" )
+PATCHES=(
+	"${FILESDIR}/${P}-llvm12.patch"
+	"${FILESDIR}/${P}-allow-py3.11.patch"
+)
 
 python_compile() {
-	export "LLVM_CONFIG=${EPREFIX}/usr/lib/llvm/14/bin/llvm-config"
+	export "LLVM_CONFIG=${EPREFIX}/usr/lib/llvm/13/bin/llvm-config"
 	distutils-r1_python_compile
 }
