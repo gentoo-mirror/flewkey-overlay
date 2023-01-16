@@ -2,7 +2,6 @@ app-crypt/pinentry-bemenu 0.12.0 9999: Pinentry based on bemenu
 app-dicts/artha 1.0.5: Cross-platform offline English thesaurus using WordNet
 app-editors/apostrophe 2.6.3 9999: A distraction free Markdown editor
 app-emulation/cemu 1.3 9999: TI-84 Plus CE emulator
-app-emulation/highscore 40.0 9999: Retro gaming application for GNOME
 app-emulation/x16-emulator 38 39 41 9999: Emulator for the Commander X16 computer
 app-eselect/eselect-juce 1.0.0 9999: JUCE eselect modules
 app-misc/komikku 1.5.0 1.7.0 9999: A manga reading program
@@ -48,7 +47,6 @@ dev-python/soxr 0.3.2 9999: Resampling library for Python
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 22.0.0 9999: Tor control protocol implementation for Python
 dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
-games-emulation/retro-gtk 1.0.2 9999: GTK libretro frontend
 games-rpg/tuxemon 0.4.32 0.4.33 0.4.34 9999: Open source monster-fighting RPG
 gui-apps/swww 0.6.0: Animated wallpaper daemon for Wayland.
 gui-libs/libdecor 0.1.0 0.1.1 9999: A client-side decorations library for Wayland clients
@@ -75,7 +73,7 @@ media-plugins/zplugins 0.2.4 0.2.5 9999: A collection of audio DSP plugins
 media-sound/csoundqt 0.9.8.1 1.1.0 9999: The default frontend for Csound
 media-sound/eartag 0.3.1 9999: A simple music tag editor.
 media-sound/klystrack 1.7.6 9999: A really cool fakebit tracker
-media-sound/pyterm 0.5_beta6 0.5_beta10 0.5 0.6_beta2: Command line YouTube music streamer
+media-sound/pyterm 0.6_beta2 9999: Command line YouTube music streamer
 media-video/olive 0.1.2: Olive Video Editor
 net-libs/libexosip2 5.3.0: The best abstraction layer over SIP. Period.
 net-libs/libosip2 5.3.0: A simple way to support the Session Initiation Protocol
