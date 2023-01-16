@@ -1,4 +1,4 @@
-# Copyright 2020 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: projucer.eclass
@@ -11,7 +11,7 @@
 # Provides a function to resave Projucer projects, and automatically sets the
 # paths for JUCE and it's modules.
 
-# @ECLASS-VARIABLE: JUCE_VERSION
+# @ECLASS_VARIABLE: JUCE_VERSION
 # @REQUIRED
 # @DEFAULT_UNSET
 # @DESCRIPTION:
@@ -23,28 +23,28 @@
 # JUCE_VERSION=6.0.4
 # @CODE
 
-# @ECLASS-VARIABLE: PROJUCER_VERSION
+# @ECLASS_VARIABLE: PROJUCER_VERSION
 # @DESCRIPTION:
 # Choose a specific version of JUCE to use. A project may only build with older
 # versions of JUCE.
 : ${PROJUCER_VERSION="${JUCE_VERSION}"}
 
-# @ECLASS-VARIABLE: JUCE_PATH
+# @ECLASS_VARIABLE: JUCE_PATH
 # @DESCRIPTION:
 # The path to JUCE
 : ${JUCE_PATH:="/opt/juce-${JUCE_VERSION}"}
 
-# @ECLASS-VARIABLE: JUCE_MODULES_PATH
+# @ECLASS_VARIABLE: JUCE_MODULES_PATH
 # @DESCRIPTION:
 # The path to JUCE modules
 : ${JUCE_MODULES_PATH:="${JUCE_PATH}/modules"}
 
-# @ECLASS-VARIABLE: PROJUCER
+# @ECLASS_VARIABLE: PROJUCER
 # @DESCRIPTION:
 # Provided in case someone wants to use a different binary
 : ${PROJUCER:="/opt/juce-${PROJUCER_VERSION}/Projucer"}
 
-# @ECLASS-VARIABLE: PROJUCER_CONF
+# @ECLASS_VARIABLE: PROJUCER_CONF
 # @INTERNAL
 # @DESCRIPTION:
 # Config file affected by the eclass. Projucer itself doesn't care
