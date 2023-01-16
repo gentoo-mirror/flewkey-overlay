@@ -1,10 +1,10 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..10} )
-DISTUTILS_USE_SETUPTOOLS=bdepend
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{8..11} )
 
 inherit distutils-r1
 
@@ -16,7 +16,7 @@ else
 	MY_PN="python-${PN}"
 	MY_P="${MY_PN}-${EGIT_COMMIT}"
 	S="${WORKDIR}/${MY_P}"
-	SRC_URI="https://github.com/casebeer/python-hkdf/archive/${EGIT_COMMIT}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/casebeer/python-hkdf/archive/${EGIT_COMMIT}.tar.gz -> ${P}.gh.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
@@ -24,9 +24,8 @@ DESCRIPTION="Python implementation of HKDF"
 HOMEPAGE="https://github.com/casebeer/python-hkdf"
 LICENSE="BSD-2"
 SLOT="0"
+RESTRICT="test"
 
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
-
-distutils_enable_tests nose
