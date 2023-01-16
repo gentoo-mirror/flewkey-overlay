@@ -1,10 +1,10 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..10} )
-DISTUTILS_USE_SETUPTOOLS=bdepend
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{8..11} )
 
 inherit distutils-r1 gnome2-utils meson xdg
 
@@ -14,7 +14,7 @@ if [[ ${PV} == 9999 ]]; then
 else
 	MY_P="${PN}-v${PV}"
 	S="${WORKDIR}/${MY_P}"
-	SRC_URI="https://gitlab.gnome.org/World/apostrophe/-/archive/v${PV}/${MY_P}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://gitlab.gnome.org/World/apostrophe/-/archive/v${PV}/${MY_P}.tar.bz2 -> ${P}.tar.bz2"
 	KEYWORDS="~amd64"
 fi
 
@@ -39,7 +39,7 @@ RDEPEND="
 	dev-python/pyenchant
 	dev-python/pygobject
 	dev-python/pypandoc
-	dev-python/python-levenshtein
+	dev-python/Levenshtein
 	dev-python/regex
 "
 BDEPEND="dev-lang/sassc"
