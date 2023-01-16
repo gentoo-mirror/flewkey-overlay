@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,9 +17,9 @@ if [[ ${PV} == 9999 ]]; then
 	EGIT_SUBMODULES=( glm pyglm-typing )
 else
 	SRC_URI="
-		https://github.com/Zuzu-Typ/PyGLM/archive/${PV}.tar.gz -> ${P}.tar.gz
-		https://github.com/g-truc/glm/archive/${GLM_COMMIT}.tar.gz -> glm-${GLM_COMMIT}.tar.gz
-		https://github.com/esoma/pyglm-typing/archive/${TYPING_COMMIT}.tar.gz -> pyglm-typing-${TYPING_COMMIT}.tar.gz
+		https://github.com/Zuzu-Typ/PyGLM/archive/${PV}.tar.gz -> ${P}.gh.tar.gz
+		https://github.com/g-truc/glm/archive/${GLM_COMMIT}.tar.gz -> glm-${GLM_COMMIT}.gh.tar.gz
+		https://github.com/esoma/pyglm-typing/archive/${TYPING_COMMIT}.tar.gz -> pyglm-typing-${TYPING_COMMIT}.gh.tar.gz
 	"
 	KEYWORDS="~amd64"
 	MY_PN="PyGLM"
