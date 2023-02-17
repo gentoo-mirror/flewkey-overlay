@@ -33,6 +33,5 @@ media-plugins/surge:vst3 - Enable building of VST3 plugin
 media-plugins/wolf-shaper:dssi - Enable building of DSSI plugin
 media-plugins/wolf-shaper:lv2 - Enable building of LV2 plugin
 media-plugins/wolf-shaper:vst2 - Enable building of VST2 plugin
-media-video/olive:frei0r - Use the frei0r effects library
 net-libs/libexosip2:srv - Enable SRV record lookups
 x11-libs/ztoolkit:rsvg - Enable support for librsvg
