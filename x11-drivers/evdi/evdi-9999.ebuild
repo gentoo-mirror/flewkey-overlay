@@ -27,6 +27,10 @@ BDEPEND="sys-kernel/linux-headers"
 MODULE_NAMES="evdi(video:${S})"
 CONFIG_CHECK="~FB_VIRTUAL ~I2C"
 
+PATCHES=(
+	"${FILESDIR}"/${PN}-${PV}-linux-6.0.2-fix.patch
+)
+
 src_prepare() {
 	default
 	local KVER=$(cat "${KERNEL_DIR}/include/config/kernel.release")
