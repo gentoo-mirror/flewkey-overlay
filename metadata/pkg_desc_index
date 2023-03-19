@@ -47,7 +47,7 @@ dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 22.0.0 9999: Tor control protocol implementation for Python
 dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
 games-rpg/tuxemon 0.4.32 0.4.33 0.4.34 9999: Open source monster-fighting RPG
-gui-apps/swww 0.6.0: Animated wallpaper daemon for Wayland.
+gui-apps/swww 0.6.0 0.7.2: Animated wallpaper daemon for Wayland.
 gui-libs/libdecor 0.1.0 0.1.1 9999: A client-side decorations library for Wayland clients
 media-gfx/glslviewer 1.6.8 1.7.0 2.0.0 2.0.4 2.0.5 9999: Console-based sandbox for GLSL shaders
 media-gfx/opentoonz 1.5.0 1.6.0 9999: An open-source full-featured 2D animation creation software
