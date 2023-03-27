@@ -1,14 +1,14 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-if [[ ${PV} != *9999* ]]; then
-	SRC_URI="https://gitlab.com/jobol/mustach/-/archive/${PV}/${P}.tar.gz"
-	KEYWORDS="~amd64"
-else
+if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/jobol/mustach.git"
+else
+	SRC_URI="https://gitlab.com/jobol/mustach/-/archive/${PV}/${P}.tar.gz"
+	KEYWORDS="~amd64"
 fi
 
 DESCRIPTION="C implementation of mustache templating"
