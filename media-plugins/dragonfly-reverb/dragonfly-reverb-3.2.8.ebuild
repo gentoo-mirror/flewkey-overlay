@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,8 +8,8 @@ if [[ ${PV} == 9999 ]]; then
 	EGIT_REPO_URI="https://github.com/michaelwillis/dragonfly-reverb.git"
 	EGIT_SUBMODULES=( dpf dpf/dgl/src/pugl-upstream )
 else
-	DPF_REF="93ce2476d997f524cd2c2e749f7e672905d126b6"
-	PUGL_REF="48032d1c3cb59e13deb2c3ec66afcf3ed65d97f4"
+	DPF_REF="22413340a6d8ef2ffbf38ce841fb44c448a1a84a"
+	PUGL_REF="3e03459a5a0b0f118b04e9e0b0a32f42ccd04a5c"
 	SRC_URI="
 		https://github.com/michaelwillis/dragonfly-reverb/archive/${PV}.tar.gz -> ${P}.gh.tar.gz
 		https://github.com/DISTRHO/DPF/archive/${DPF_REF}.tar.gz -> dpf-${DPF_REF}.gh.tar.gz
@@ -67,4 +67,9 @@ src_install() {
 	cp -r "${S}/bin/DragonflyPlateReverb.lv2" "${D}/usr/$(get_libdir)/lv2"
 	cp -r "${S}/bin/DragonflyHallReverb.lv2" "${D}/usr/$(get_libdir)/lv2"
 	cp -r "${S}/bin/DragonflyRoomReverb.lv2" "${D}/usr/$(get_libdir)/lv2"
+	dodir /usr/$(get_libdir)/clap
+	cp -r "${S}/bin/DragonflyEarlyReflections.clap" "${D}/usr/$(get_libdir)/clap"
+	cp -r "${S}/bin/DragonflyPlateReverb.clap" "${D}/usr/$(get_libdir)/clap"
+	cp -r "${S}/bin/DragonflyHallReverb.clap" "${D}/usr/$(get_libdir)/clap"
+	cp -r "${S}/bin/DragonflyRoomReverb.clap" "${D}/usr/$(get_libdir)/clap"
 }
