@@ -1,13 +1,11 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=install
 DEPEND=x11-drivers/evdi
 DESCRIPTION=Library for managing screens
 EAPI=8
 HOMEPAGE=https://github.com/DisplayLink/evdi
-INHERIT=git-r3
+KEYWORDS=~amd64
 LICENSE=LGPL-2.1
-PROPERTIES=live
 RDEPEND=x11-drivers/evdi
 SLOT=0
-_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
+SRC_URI=https://github.com/DisplayLink/evdi/archive/v1.13.0.tar.gz -> evdi-1.13.0.tar.gz
 _md5_=c17d6773e110cdb01e00f6e2689af348

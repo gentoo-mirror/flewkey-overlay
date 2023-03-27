@@ -2,13 +2,13 @@ BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
 DEPEND=jack? ( virtual/jack )
 DESCRIPTION=Waveshaper plugin w/ spline-based graph editor
-EAPI=7
+EAPI=8
 HOMEPAGE=https://pdesaulniers.github.io/wolf-shaper/
 INHERIT=git-r3
-IUSE=+lv2 +vst2 dssi +jack
+IUSE=+lv2 +clap +vst3 vst2 dssi jack
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=jack? ( virtual/jack )
 SLOT=0
 _eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
-_md5_=95dbf74a6363ef6a92f83ef9764d47e0
+_md5_=edd5738b6d65438e433c843f871e2471
