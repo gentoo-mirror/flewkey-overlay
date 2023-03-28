@@ -1,9 +1,0 @@
-DEFINED_PHASES=compile install
-DESCRIPTION=C library for reading and writing YAML
-EAPI=8
-HOMEPAGE=https://github.com/tlsa/libcyaml/
-KEYWORDS=~amd64
-LICENSE=ISC
-SLOT=0
-SRC_URI=https://github.com/tlsa/libcyaml/archive/v1.3.0.tar.gz -> libcyaml-1.3.0.tar.gz
-_md5_=0c30f95f51fb4c09c9af13e3e7f7a0f0
