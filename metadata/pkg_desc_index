@@ -69,7 +69,6 @@ media-sound/carla 2.5.4 9999: Fully-featured audio plugin host, supports many au
 media-sound/csoundqt 1.1.1 9999: The default frontend for Csound
 media-sound/eartag 0.3.3 9999: A simple music tag editor.
 media-sound/klystrack 1.7.6 9999: A really cool fakebit tracker
-media-sound/pyterm 0.6_beta2 9999: Command line YouTube music streamer
 net-libs/libexosip2 5.3.0: The best abstraction layer over SIP. Period.
 net-libs/libosip2 5.3.0: A simple way to support the Session Initiation Protocol
 net-misc/magic-wormhole 0.12.0 9999: Safe, simple file sharing
