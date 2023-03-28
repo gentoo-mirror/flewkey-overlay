@@ -12,7 +12,8 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/rougier/freetype-py.git"
 else
-	SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.zip"
+	inherit pypi
+	SRC_URI=$(pypi_sdist_url --no-normalize "${PN}" "${PV}" .zip)
 	KEYWORDS="~amd64"
 fi
 
@@ -24,6 +25,6 @@ SLOT="0"
 DEPEND="media-libs/freetype"
 RDEPEND="${DEPEND}"
 BDEPEND="
-	dev-python/setuptools_scm
+	dev-python/setuptools-scm
 	app-arch/unzip
 "
