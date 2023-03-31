@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -33,7 +33,7 @@ RDEPEND="
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
+	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	>=dev-python/pygame-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/pygame-menu-4.2.8[${PYTHON_USEDEP}]
