@@ -7,14 +7,17 @@ inherit meson
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/hannesbraun/airwindows-lv2.git"
+	EGIT_REPO_URI="https://git.sr.ht/~hannes/airwindows-lv2"
 else
-	SRC_URI="https://github.com/hannesbraun/airwindows-lv2/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz"
+	SRC_URI="https://git.sr.ht/~hannes/airwindows-lv2/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
+	MY_PV="v${PV}"
+	MY_P="${PN}-${MY_PV}"
+	S="${WORKDIR}/${MY_P}"
 fi
 
 DESCRIPTION="A port of Airwindows plugins to LV2"
-HOMEPAGE="https://github.com/hannesbraun/airwindows-lv2"
+HOMEPAGE="https://sr.ht/~hannes/airwindows-lv2/"
 LICENSE="MIT"
 SLOT="0"
 
