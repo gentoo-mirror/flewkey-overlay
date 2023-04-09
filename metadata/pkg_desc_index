@@ -7,10 +7,8 @@ app-text/wike 1.8.3 9999: Wikipedia reader for GNOME
 dev-embedded/cc65 2.19 9999: A C compiler for 6502-based systems
 dev-embedded/sunxi-tools 1.4.2 9999: Tools for Allwinner A10 devices
 dev-libs/clearsilver 0.11.0 9999: Clearsilver HTML templating system
-dev-libs/gbinder 1.1.33 9999: GLib-style interface to binder
 dev-libs/juce 6.0.1 6.0.4 6.0.7 6.0.8 6.1.0 6.1.1 6.1.2 6.1.3 6.1.4 6.1.6 7.0.0 7.0.2: A cross-platform C++ framework
 dev-libs/libcyaml 1.3.1 1.4.0 9999: C library for reading and writing YAML
-dev-libs/libglibutil 1.0.68 9999: Library of glib utilities
 dev-libs/libscfg 9999: C library for the scfg configuration format
 dev-libs/libshake 0.3.2 9999: Simple, cross-platform haptic library.
 dev-libs/libversion 3.0.3 9999: Advanced version string comparison library
@@ -21,13 +19,12 @@ dev-libs/zix 9999: A C data structures library
 dev-python/bashlex 0.17 0.18 9999: Python parser for bash
 dev-python/ffpyplayer 4.4.0 4.5.0 9999: Python bindings for the FFmpeg media player
 dev-python/freetype-py 2.3.0 9999: Python bindings for freetype
-dev-python/gbinder 1.1.1 9999: Python bindings for libgbinder
 dev-python/gpxpy 1.5.0 9999: GPX file parser and GPS track manipulation library
 dev-python/hkdf 0.0.3 9999: Python implementation of HKDF
 dev-python/libversion 1.2.4 9999: Python bindings for libversion
 dev-python/markdown-captions 2.1.2 9999: Image captions for python-markdown
 dev-python/neteria 1.0.2 9999: Open source game networking framework for Python
-dev-python/pygame-menu 4.4.1 9999: A pygame library for menus and GUIs
+dev-python/pygame-menu 4.4.1 4.4.2 9999: A pygame library for menus and GUIs
 dev-python/pyglm 2.6.0 2.7.0 9999: Fast OpenGL Mathematics
 dev-python/pypandoc 1.9 1.11 9999: Thin wrapper for pandoc
 dev-python/pypresence 4.2.1 9999: Discord IPC and Rich Presence wrapper for Python
@@ -36,7 +33,7 @@ dev-python/pytmx 3.31 9999: Python library to read Tiled Map Editor's TMX maps
 dev-python/pyvoip 1.6.4 9999: Python SIP/RTP library
 dev-python/sounddevice 0.4.5 0.4.6 9999: PortAudio bindings for Python
 dev-python/soundfile 0.12.1 9999: An audio library for Python
-dev-python/soxr 0.3.4 9999: Resampling library for Python
+dev-python/soxr 0.3.4 0.3.5 9999: Resampling library for Python
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 23.0.0 9999: Tor control protocol implementation for Python
 dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
@@ -49,12 +46,12 @@ media-libs/lsp-dsp-lib 1.0.10: Optimized DSP library
 media-libs/pyliblo 0.10.0: A Python wrapper for the liblo OSC library
 media-libs/soundpipe 9999: A lightweight music DSP library
 media-libs/verovio 3.15.0 9999: Music engraving library
-media-plugins/airwindows-lv2 16.0 9999: A port of Airwindows plugins to LV2
+media-plugins/airwindows-lv2 16.0 18.0 9999: A port of Airwindows plugins to LV2
 media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
 media-plugins/bslizr 1.2.14 1.2.16 9999: Sequenced audio slicing effect LV2 plugin
 media-plugins/bspacr 1.2.0 9999: LV2 sound effect plugin
-media-plugins/dragonfly-reverb 3.2.8 9999: A set of free reverb effects
+media-plugins/dragonfly-reverb 3.2.8 3.2.9 9999: A set of free reverb effects
 media-plugins/eq10q 2.2: Audio plugin bundle over the LV2 standard for Linux
 media-plugins/geonkick 2.9.1 9999: A free software percussion synthesizer
 media-plugins/obs-tuna 9999: OBS song information plugin
