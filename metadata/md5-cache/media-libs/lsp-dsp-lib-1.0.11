@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure unpack
+DESCRIPTION=Optimized DSP library
+EAPI=8
+HOMEPAGE=https://github.com/lsp-plugins/lsp-dsp-lib
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=LGPL-3
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/lsp-plugins/lsp-dsp-lib/archive/1.0.11.tar.gz -> lsp-dsp-lib-1.0.11.tar.gz https://github.com/lsp-plugins/lsp-common-lib/archive/1.0.27.tar.gz -> lsp-common-lib-1.0.27.tar.gz https://github.com/lsp-plugins/lsp-test-fw/archive/1.0.19.tar.gz -> lsp-test-fw-1.0.19.tar.gz
+_md5_=4ec19da1c6e1e897f157fcc5004ab01d

@@ -3,7 +3,7 @@ app-editors/apostrophe 2.6.3 9999: A distraction free Markdown editor
 app-emulation/cemu 1.3 9999: TI-84 Plus CE emulator
 app-emulation/x16-emulator 41 9999: Emulator for the Commander X16 computer
 app-eselect/eselect-juce 1.0.0 9999: JUCE eselect modules
-app-text/wike 1.8.3 2.0.0 9999: Wikipedia reader for GNOME
+app-text/wike 1.8.3 2.0.0 2.0.1 9999: Wikipedia reader for GNOME
 dev-embedded/cc65 2.19 9999: A C compiler for 6502-based systems
 dev-embedded/sunxi-tools 1.4.2 9999: Tools for Allwinner A10 devices
 dev-libs/clearsilver 0.11.0 9999: Clearsilver HTML templating system
@@ -42,7 +42,7 @@ gui-apps/swww 0.6.0 0.7.2: Animated wallpaper daemon for Wayland.
 gui-libs/libdecor 0.1.0 0.1.1 9999: A client-side decorations library for Wayland clients
 media-gfx/opentoonz 1.5.0 1.6.0 9999: An open-source full-featured 2D animation creation software
 media-libs/libaudec 0.3.4 9999: A library for reading and resampling audio files
-media-libs/lsp-dsp-lib 1.0.10: Optimized DSP library
+media-libs/lsp-dsp-lib 1.0.10 1.0.11: Optimized DSP library
 media-libs/pyliblo 0.10.0: A Python wrapper for the liblo OSC library
 media-libs/soundpipe 9999: A lightweight music DSP library
 media-libs/verovio 3.15.0 9999: Music engraving library
@@ -51,7 +51,7 @@ media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch e
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
 media-plugins/bslizr 1.2.14 1.2.16 9999: Sequenced audio slicing effect LV2 plugin
 media-plugins/bspacr 1.2.0 9999: LV2 sound effect plugin
-media-plugins/dragonfly-reverb 3.2.8 3.2.9 9999: A set of free reverb effects
+media-plugins/dragonfly-reverb 3.2.8 3.2.9 3.2.10 9999: A set of free reverb effects
 media-plugins/eq10q 2.2: Audio plugin bundle over the LV2 standard for Linux
 media-plugins/geonkick 2.9.1 9999: A free software percussion synthesizer
 media-plugins/obs-tuna 9999: OBS song information plugin
