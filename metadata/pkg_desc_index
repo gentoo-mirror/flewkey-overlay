@@ -49,7 +49,6 @@ media-plugins/airwindows-lv2 16.0 18.0 9999: A port of Airwindows plugins to LV2
 media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
 media-plugins/bslizr 1.2.14 1.2.16 9999: Sequenced audio slicing effect LV2 plugin
-media-plugins/bspacr 1.2.0 9999: LV2 sound effect plugin
 media-plugins/dragonfly-reverb 3.2.8 3.2.9 3.2.10 9999: A set of free reverb effects
 media-plugins/eq10q 2.2: Audio plugin bundle over the LV2 standard for Linux
 media-plugins/geonkick 2.9.1 9999: A free software percussion synthesizer
