@@ -18,13 +18,12 @@ dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
 dev-libs/zix 9999: A C data structures library
 dev-python/bashlex 0.17 0.18 9999: Python parser for bash
 dev-python/ffpyplayer 4.4.0 4.5.0 9999: Python bindings for the FFmpeg media player
-dev-python/freetype-py 2.3.0 9999: Python bindings for freetype
 dev-python/gpxpy 1.5.0 9999: GPX file parser and GPS track manipulation library
 dev-python/hkdf 0.0.3 9999: Python implementation of HKDF
 dev-python/libversion 1.2.4 9999: Python bindings for libversion
 dev-python/markdown-captions 2.1.2 9999: Image captions for python-markdown
 dev-python/neteria 1.0.2 9999: Open source game networking framework for Python
-dev-python/pygame-menu 4.4.1 4.4.2 9999: A pygame library for menus and GUIs
+dev-python/pygame-menu 4.4.3 9999: A pygame library for menus and GUIs
 dev-python/pyglm 2.6.0 2.7.0 9999: Fast OpenGL Mathematics
 dev-python/pypandoc 1.9 1.11 9999: Thin wrapper for pandoc
 dev-python/pypresence 4.2.1 9999: Discord IPC and Rich Presence wrapper for Python
@@ -38,7 +37,7 @@ dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 23.0.0 9999: Tor control protocol implementation for Python
 dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
 games-rpg/tuxemon 0.4.34 9999: Open source monster-fighting RPG
-gui-apps/swww 0.6.0 0.7.2: Animated wallpaper daemon for Wayland.
+gui-apps/swww 0.6.0 0.7.2 0.7.3: Animated wallpaper daemon for Wayland.
 gui-libs/libdecor 0.1.0 0.1.1 9999: A client-side decorations library for Wayland clients
 media-gfx/opentoonz 1.5.0 1.6.0 9999: An open-source full-featured 2D animation creation software
 media-libs/libaudec 0.3.4 9999: A library for reading and resampling audio files
@@ -59,7 +58,7 @@ media-plugins/obs-wlrobs 1.1 9999: Allows screen capture on wlroots-based Waylan
 media-plugins/odin2 2.2.4 2.3.1 2.3.4: A 24-voice polyphonic synthesizer
 media-plugins/remid 0.3 9999: A free software percussion synthesizer
 media-plugins/tap-plugins 1.0.1 9999: Tom's Audio Processing LADSPA plugins
-media-plugins/wolf-shaper 1.0.1 9999: Waveshaper plugin w/ spline-based graph editor
+media-plugins/wolf-shaper 1.0.1 1.0.2 9999: Waveshaper plugin w/ spline-based graph editor
 media-plugins/zplugins 0.2.4 0.2.5 9999: A collection of audio DSP plugins
 media-sound/carla 2.5.4 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/csoundqt 1.1.1 9999: The default frontend for Csound
@@ -69,7 +68,7 @@ net-libs/libexosip2 5.3.0: The best abstraction layer over SIP. Period.
 net-libs/libosip2 5.3.0: A simple way to support the Session Initiation Protocol
 net-misc/magic-wormhole 0.12.0 9999: Safe, simple file sharing
 net-wireless/artemis 3.2.4 9999: Radio Signals Recognition Manual
-sci-visualization/plots 0.8.4 9999: Graph plotting app for GNOME
+sci-visualization/plots 0.8.4 0.8.5 9999: Graph plotting app for GNOME
 x11-drivers/displaylink-driver 5.6.1.59.184: Driver for modern DisplayLink devices
 x11-drivers/evdi 1.12.0 1.13.0 1.13.1 9999: Kernel module for managing screens
 x11-libs/libevdi 1.12.0 1.13.0 1.13.1 9999: Library for managing screens

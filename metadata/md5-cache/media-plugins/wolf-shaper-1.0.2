@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=jack? ( virtual/jack )
+DESCRIPTION=Waveshaper plugin w/ spline-based graph editor
+EAPI=8
+HOMEPAGE=https://pdesaulniers.github.io/wolf-shaper/
+IUSE=+lv2 +clap +vst3 vst2 dssi jack
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=jack? ( virtual/jack )
+SLOT=0
+SRC_URI=https://github.com/wolf-plugins/wolf-shaper/archive/v1.0.2.tar.gz -> wolf-shaper-1.0.2.tar.gz https://github.com/DISTRHO/DPF/archive/d8c26737120cc36aacfb61c7c6b667eb6814e392.tar.gz -> dpf-d8c26737120cc36aacfb61c7c6b667eb6814e392.tar.gz https://github.com/DISTRHO/pugl/archive/844528e197c51603f6cef3238b4a48d23bf60eb7.tar.gz -> pugl-844528e197c51603f6cef3238b4a48d23bf60eb7.tar.gz
+_md5_=67c089aaa1d0c9194e07853a83075289

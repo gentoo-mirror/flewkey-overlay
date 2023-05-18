@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=jack? ( virtual/jack )
 SLOT=0
 _eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
-_md5_=edd5738b6d65438e433c843f871e2471
+_md5_=07f48c2ca749455e33b4142c54cb6216
