@@ -7,7 +7,7 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/pdesaulniers/wolf-shaper.git"
 else
-	DPF_REF="a4c83bfdc925db48f272e66a006a6630625c3e20"
+	DPF_REF="d8c26737120cc36aacfb61c7c6b667eb6814e392"
 	PUGL_REF="844528e197c51603f6cef3238b4a48d23bf60eb7"
 	SRC_URI="
 		https://github.com/wolf-plugins/wolf-shaper/archive/v${PV}.tar.gz  -> ${P}.tar.gz
