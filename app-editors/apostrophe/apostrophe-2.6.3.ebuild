@@ -29,18 +29,18 @@ DEPEND="
 	dev-libs/glib
 	dev-libs/gobject-introspection
 	>=gui-libs/libhandy-1.6.0
-	net-libs/webkit-gtk[introspection]
+	net-libs/webkit-gtk:4[introspection]
 	sys-devel/gettext
 	x11-libs/gtk+:3[introspection]
 "
 RDEPEND="
 	${DEPEND}
-	dev-python/pycairo
-	dev-python/pyenchant
-	dev-python/pygobject
-	dev-python/pypandoc
-	dev-python/Levenshtein
-	dev-python/regex
+	dev-python/pycairo[${PYTHON_USEDEP}]
+	dev-python/pyenchant[${PYTHON_USEDEP}]
+	dev-python/pygobject[${PYTHON_USEDEP}]
+	dev-python/pypandoc[${PYTHON_USEDEP}]
+	dev-python/Levenshtein[${PYTHON_USEDEP}]
+	dev-python/regex[${PYTHON_USEDEP}]
 "
 BDEPEND="dev-lang/sassc"
 
@@ -48,3 +48,5 @@ pkg_postinst() {
 	xdg_pkg_postinst
 	gnome2_schemas_update
 }
+
+distutils_enable_tests pytest
