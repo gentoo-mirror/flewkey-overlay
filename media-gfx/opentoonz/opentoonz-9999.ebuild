@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -60,6 +60,7 @@ src_configure() {
 		-DSUPERLU_INCLUDE_DIR="${EPREFIX}/usr/include/superlu"
 		-DLZO_INCLUDE_DIR="${EPREFIX}/usr/include/lzo"
 		-DCMAKE_SKIP_RPATH=ON
+		-DWITH_TRANSLATION=OFF # Workaround issue #4840
 	)
 
 	# The upstream uses their own modified libtiff
