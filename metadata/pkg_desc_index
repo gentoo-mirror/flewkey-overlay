@@ -39,7 +39,7 @@ dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity 
 games-rpg/tuxemon 0.4.34 9999: Open source monster-fighting RPG
 gui-apps/swww 0.6.0 0.7.2 0.7.3: Animated wallpaper daemon for Wayland.
 gui-libs/libdecor 0.1.0 0.1.1 9999: A client-side decorations library for Wayland clients
-media-gfx/opentoonz 1.5.0 1.6.0 9999: An open-source full-featured 2D animation creation software
+media-gfx/opentoonz 1.7.1 9999: An open-source full-featured 2D animation creation software
 media-libs/libaudec 0.3.4 9999: A library for reading and resampling audio files
 media-libs/lsp-dsp-lib 1.0.10 1.0.11 1.0.12: Optimized DSP library
 media-libs/pyliblo 0.10.0: A Python wrapper for the liblo OSC library
