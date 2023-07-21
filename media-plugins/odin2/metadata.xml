@@ -5,9 +5,6 @@
 		<email>flewkey@2a03.party</email>
 		<name>Ryan Fox</name>
 	</maintainer>
-	<use>
-		<flag name="lv2">Enable building of LV2 plugin</flag>
-	</use>
 	<upstream>
 		<remote-id type="github">TheWaveWarden/odin2</remote-id>
 	</upstream>
