@@ -6,6 +6,6 @@
 		<name>Ryan Fox</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">TheWaveWarden/odin2</remote-id>
+		<remote-id type="github">devkitPro/ndstool</remote-id>
 	</upstream>
 </pkgmetadata>
