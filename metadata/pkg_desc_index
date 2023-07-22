@@ -29,13 +29,14 @@ dev-python/pypandoc 1.9 1.11 9999: Thin wrapper for pandoc
 dev-python/pypresence 4.2.1 9999: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.30 9999: Animated scrolling maps for Pygame
 dev-python/pytmx 3.31 3.32 9999: Python library to read Tiled Map Editor's TMX maps
-dev-python/pyvoip 1.6.4 9999: Python SIP/RTP library
+dev-python/pyvoip 1.6.4 1.6.5 9999: Python SIP/RTP library
 dev-python/sounddevice 0.4.5 0.4.6 9999: PortAudio bindings for Python
 dev-python/soundfile 0.12.1 9999: An audio library for Python
 dev-python/soxr 0.3.4 0.3.5 9999: Resampling library for Python
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
 dev-python/txtorcon 23.5.0 9999: Tor control protocol implementation for Python
 dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
+dev-util/ndstool 2.2.0 9999: Nintendo DS ROM tool
 games-rpg/tuxemon 0.4.34 9999: Open source monster-fighting RPG
 gui-apps/swww 0.6.0 0.7.2 0.7.3: Animated wallpaper daemon for Wayland.
 gui-libs/libdecor 0.1.0 0.1.1 9999: A client-side decorations library for Wayland clients
@@ -54,7 +55,7 @@ media-plugins/eq10q 2.2: Audio plugin bundle over the LV2 standard for Linux
 media-plugins/geonkick 2.9.1 9999: A free software percussion synthesizer
 media-plugins/obs-tuna 9999: OBS song information plugin
 media-plugins/obs-wlrobs 1.1 9999: Allows screen capture on wlroots-based Wayland compositors
-media-plugins/odin2 2.2.4 2.3.1 2.3.4: A 24-voice polyphonic synthesizer
+media-plugins/odin2 2.3.4: A 24-voice polyphonic synthesizer
 media-plugins/remid 0.3 9999: A free software percussion synthesizer
 media-plugins/tap-plugins 1.0.1 9999: Tom's Audio Processing LADSPA plugins
 media-plugins/wolf-shaper 1.0.1 1.0.2 9999: Waveshaper plugin w/ spline-based graph editor
@@ -68,7 +69,7 @@ net-libs/libosip2 5.3.0: A simple way to support the Session Initiation Protocol
 net-misc/magic-wormhole 0.12.0 9999: Safe, simple file sharing
 net-wireless/artemis 3.2.4 9999: Radio Signals Recognition Manual
 sci-visualization/plots 0.8.4 0.8.5 9999: Graph plotting app for GNOME
-x11-drivers/displaylink-driver 5.6.1.59.184: Driver for modern DisplayLink devices
+x11-drivers/displaylink-driver 5.6.1.59.184 5.7.0.61.129: Driver for modern DisplayLink devices
 x11-drivers/evdi 1.12.0 1.13.0 1.13.1 1.14.0 9999: Kernel module for managing screens
 x11-libs/libevdi 1.12.0 1.13.0 1.13.1 1.14.0 9999: Library for managing screens
 x11-libs/redkite 1.3.1 9999: A small GUI toolkit

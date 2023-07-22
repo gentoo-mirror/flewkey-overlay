@@ -26,7 +26,6 @@ media-plugins/geonkick:standalone - Build standalone application
 media-plugins/geonkick:vst3 - Build VST3 plug-in
 media-plugins/obs-wlrobs:dmabuf - Use the dmabuf backend
 media-plugins/obs-wlrobs:scpy - Use the scpy backend
-media-plugins/odin2:lv2 - Enable building of LV2 plugin
 media-plugins/wolf-shaper:clap - Enable building of CLAP plugin
 media-plugins/wolf-shaper:dssi - Enable building of DSSI plugin
 media-plugins/wolf-shaper:lv2 - Enable building of LV2 plugin

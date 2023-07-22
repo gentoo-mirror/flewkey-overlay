@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm prepare unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Driver for modern DisplayLink devices
+EAPI=8
+HOMEPAGE=http://www.displaylink.com/downloads/ubuntu
+INHERIT=udev systemd
+IUSE=systemd
+KEYWORDS=~amd64
+LICENSE=DisplayLink-EULA
+RDEPEND=virtual/libusb virtual/udev x11-libs/libevdi
+SLOT=0
+SRC_URI=https://www.synaptics.com/sites/default/files/exe_files/2023-04/DisplayLink%20USB%20Graphics%20Software%20for%20Ubuntu5.7-EXE.zip -> displaylink-driver-5.7.0.61.129.zip
+_eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	udev	eec0bbab06977f1cfc5597269c1fa152	systemd	5f4bb0758df2e483babf68cd517078ca
+_md5_=9a19c232ede847f120b915b9eccea30c
