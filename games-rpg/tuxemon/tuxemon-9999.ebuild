@@ -29,7 +29,6 @@ RESTRICT="test"
 DEPEND="dev-python/Babel"
 RDEPEND="
 	${DEPEND}
-	dev-python/cbor[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
