@@ -15,11 +15,6 @@ dev-libs/mustach:jansson - Build dev-libs/jansson wrapper
 dev-libs/mustach:json-c - Build dev-libs/json-c wrapper
 dev-libs/mustach:tool - Build the command line tool
 games-rpg/tuxemon:rumble - Enable rumble support
-media-libs/verovio:abc - Enable ABC support
-media-libs/verovio:darms - Enable DARMS support
-media-libs/verovio:humdrum - Enable Humdrum support
-media-libs/verovio:musicxml - Enable MusicXML support
-media-libs/verovio:pae - Enable Plaine and Easie support
 media-plugins/bslizr:uwu - Enable UwU skin
 media-plugins/geonkick:lv2 - Build LV2 plug-in
 media-plugins/geonkick:standalone - Build standalone application
