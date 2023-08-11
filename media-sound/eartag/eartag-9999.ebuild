@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{8..12} )
 inherit python-single-r1 meson xdg
 
 if [[ ${PV} == 9999 ]]; then
