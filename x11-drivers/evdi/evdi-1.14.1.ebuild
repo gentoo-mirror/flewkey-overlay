@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit linux-mod
+inherit linux-mod-r1
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
@@ -24,11 +24,15 @@ DEPEND="x11-libs/libdrm"
 RDEPEND="${DEPEND}"
 BDEPEND="sys-kernel/linux-headers"
 
-MODULE_NAMES="evdi(video:${S})"
 CONFIG_CHECK="~FB_VIRTUAL ~I2C"
 
 src_prepare() {
 	default
 	local KVER=$(cat "${KERNEL_DIR}/include/config/kernel.release")
 	sed -i "1i KVER := ${KVER}" "${S}/Makefile"
+}
+
+src_compile() {
+	local modlist=( evdi=video )
+	linux-mod-r1_src_compile
 }
