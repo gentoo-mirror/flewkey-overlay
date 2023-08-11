@@ -8,14 +8,14 @@ inherit python-single-r1 meson xdg
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://gitlab.gnome.org/knuxify/eartag.git"
+	EGIT_REPO_URI="https://gitlab.gnome.org/World/eartag.git"
 else
-	SRC_URI="https://gitlab.gnome.org/knuxify/eartag/-/archive/${PV}/${P}.tar.bz2"
+	SRC_URI="https://gitlab.gnome.org/World/eartag/-/archive/${PV}/${P}.tar.bz2"
 	KEYWORDS="~amd64"
 fi
 
 DESCRIPTION="A simple music tag editor."
-HOMEPAGE="https://gitlab.gnome.org/knuxify/eartag"
+HOMEPAGE="https://apps.gnome.org/app/app.drey.EarTag/"
 LICENSE="MIT"
 SLOT="0"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
