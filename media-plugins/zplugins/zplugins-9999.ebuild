@@ -7,15 +7,16 @@ inherit meson
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://git.zrythm.org/zrythm/zplugins.git"
+	EGIT_REPO_URI="https://gitlab.zrythm.org/zrythm/zplugins.git"
 else
-	SRC_URI="https://git.zrythm.org/zrythm/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	MY_P="${PN}-v${PV}"
+	S="${WORKDIR}/${MY_P}"
+	SRC_URI="https://gitlab.zrythm.org/zrythm/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2 -> ${P}.tar.bz2"
 	KEYWORDS="~amd64"
-	S="${WORKDIR}/${PN}"
 fi
 
 DESCRIPTION="A collection of audio DSP plugins"
-HOMEPAGE="https://git.zrythm.org/zrythm/zplugins"
+HOMEPAGE="https://gitlab.zrythm.org/zrythm/zplugins"
 LICENSE="GPL-3"
 SLOT="0"
 
