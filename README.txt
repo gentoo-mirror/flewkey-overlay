@@ -1,6 +1,6 @@
 flewkey-overlay
 
-A personal Gentoo overlay for flewkey, with miscellaneous packages.
+A personal Gentoo overlay for flewkey with miscellaneous packages.
 
 Q: How do I install this overlay?
 A: https://wiki.gentoo.org/wiki/Eselect/Repository
