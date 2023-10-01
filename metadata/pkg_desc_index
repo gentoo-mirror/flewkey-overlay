@@ -20,6 +20,7 @@ dev-libs/zix 9999: A C data structures library
 dev-python/bashlex 0.17 0.18 9999: Python parser for bash
 dev-python/ffpyplayer 4.4.0 4.5.0 9999: Python bindings for the FFmpeg media player
 dev-python/gpxpy 1.5.0 9999: GPX file parser and GPS track manipulation library
+dev-python/gtts 2.3.2 9999: Python library for Google's text-to-speech
 dev-python/hkdf 0.0.3 9999: Python implementation of HKDF
 dev-python/libversion 1.2.4 9999: Python bindings for libversion
 dev-python/markdown-captions 2.1.2 9999: Image captions for python-markdown
@@ -35,6 +36,7 @@ dev-python/sounddevice 0.4.5 0.4.6 9999: PortAudio bindings for Python
 dev-python/soundfile 0.12.1 9999: An audio library for Python
 dev-python/soxr 0.3.4 0.3.5 9999: Resampling library for Python
 dev-python/spake2 0.8 9999: Python implementation of SPAKE2
+dev-python/tinytuya 1.12.11 9999: Python API for Tuya devices
 dev-python/txtorcon 23.5.0 9999: Tor control protocol implementation for Python
 dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
 dev-util/ndstool 2.2.0 9999: Nintendo DS ROM tool
@@ -59,7 +61,7 @@ media-plugins/odin2 2.3.4: A 24-voice polyphonic synthesizer
 media-plugins/remid 0.3 9999: A free software percussion synthesizer
 media-plugins/tap-plugins 1.0.1 9999: Tom's Audio Processing LADSPA plugins
 media-plugins/wolf-shaper 1.0.1 1.0.2 9999: Waveshaper plugin w/ spline-based graph editor
-media-plugins/zplugins 0.2.4 0.2.5 9999: A collection of audio DSP plugins
+media-plugins/zplugins 0.2.6 9999: A collection of audio DSP plugins
 media-sound/carla 2.5.6 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/csoundqt 1.1.1 9999: The default frontend for Csound
 media-sound/eartag 0.4.2 9999: A simple music tag editor.
@@ -67,7 +69,7 @@ media-sound/klystrack 1.7.6 9999: A really cool fakebit tracker
 net-libs/libexosip2 5.3.0: The best abstraction layer over SIP. Period.
 net-libs/libosip2 5.3.0: A simple way to support the Session Initiation Protocol
 net-misc/magic-wormhole 0.12.0 9999: Safe, simple file sharing
-net-misc/tuba 0.4.0 0.4.1 9999: Mastodon client, previously known as Tooth
+net-misc/tuba 0.4.0 0.4.1 0.5.0 9999: Mastodon client, previously known as Tooth
 net-wireless/artemis 3.2.4 9999: Radio Signals Recognition Manual
 sci-visualization/plots 0.8.4 0.8.5 9999: Graph plotting app for GNOME
 x11-drivers/displaylink-driver 5.6.1.59.184 5.7.0.61.129 5.8.0.63.33: Driver for modern DisplayLink devices
