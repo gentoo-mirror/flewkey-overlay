@@ -38,6 +38,8 @@ BDEPEND="
 	virtual/pkgconfig
 "
 
+PATCHES=( "${FILESDIR}/${P}-fixes.patch" )
+
 VALA_MIN_API_VERSION=0.48
 
 src_prepare() {

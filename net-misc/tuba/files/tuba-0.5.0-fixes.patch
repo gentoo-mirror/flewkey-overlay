@@ -1,0 +1,32 @@
+diff --git a/src/Views/TabbedBase.vala b/src/Views/TabbedBase.vala
+index 6a36a8c..8b752a7 100644
+--- a/src/Views/TabbedBase.vala
++++ b/src/Views/TabbedBase.vala
+@@ -157,6 +157,7 @@ public class Tuba.Views.TabbedBase : Views.Base {
+ 		if (view.content_box.has_css_class ("no-transition")) {
+ 			Timeout.add_once (200, () => {
+ 				last_view.content_box.remove_css_class ("no-transition");
++				return true;
+ 			});
+ 		}
+ 
+diff --git a/src/Widgets/VoteBox.vala b/src/Widgets/VoteBox.vala
+index b996f9f..abc3b9c 100644
+--- a/src/Widgets/VoteBox.vala
++++ b/src/Widgets/VoteBox.vala
+@@ -73,15 +73,11 @@ public class Tuba.Widgets.VoteBox : Gtk.Box {
+                 var percentage = poll.votes_count > 0 ? ((double)p.votes_count / poll.votes_count) * 100 : 0.0;
+ 
+                 var provider = new Gtk.CssProvider ();
+-                #if GTK_4_12
+-                    provider.load_from_string (generate_css_style ((int) percentage));
+-                #else
+                     #if VALAC_05611
+                         provider.load_from_data (generate_css_style ((int) percentage), -1);
+                     #else
+                         provider.load_from_data (generate_css_style ((int) percentage).data);
+                     #endif
+-                #endif
+ 
+                 row.get_style_context ().add_provider (provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+                 row.add_css_class (@"ttl-poll-$((int) percentage)");
