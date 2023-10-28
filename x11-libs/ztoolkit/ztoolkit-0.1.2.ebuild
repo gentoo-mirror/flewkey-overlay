@@ -1,17 +1,18 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit meson
 
-if [[ ${PV} != *9999* ]]; then
-	S="${WORKDIR}/${PN}"
-	SRC_URI="https://git.zrythm.org/zrythm/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64"
-else
+if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://git.zrythm.org/zrythm/ztoolkit.git"
+	EGIT_REPO_URI="https://gitlab.zrythm.org/zrythm/ztoolkit.git"
+else
+	MY_P="${PN}-v${PV}"
+	S="${WORKDIR}/${MY_P}"
+	SRC_URI="https://gitlab.zrythm.org/zrythm/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2 -> ${P}.tar.bz2"
+	KEYWORDS="~amd64"
 fi
 
 DESCRIPTION="GUI toolkit for LV2 plugins"
