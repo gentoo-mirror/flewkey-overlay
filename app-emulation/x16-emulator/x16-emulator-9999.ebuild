@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -56,5 +56,5 @@ src_install() {
 	dodir /opt/${PN}
 	cp "${S}/x16emu" "${D}/opt/${PN}" || die
 	use rom && cp "${WORKDIR}/${ROM_P}/build/x16/rom.bin" "${D}/opt/${PN}" || die
-	dosym "${EPREFIX}/opt/${PN}/x16emu" "${EPREFIX}/usr/bin/x16emu"
+	dosym ../../opt/"${PN}"/x16emu /usr/bin/x16emu
 }
