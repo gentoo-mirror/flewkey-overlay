@@ -8,9 +8,6 @@ dev-libs/clearsilver:apache - Build Apache 1.3.x module
 dev-libs/clearsilver:compression - Enable HTML compression support
 dev-libs/clearsilver:csharp - Build the C# module
 dev-libs/clearsilver:gettext - Enable gettext message translation
-dev-libs/juce:examples - Build the JUCE examples
-dev-libs/juce:extras - Build all JUCE extras (including Projucer)
-dev-libs/juce:projucer - Build the Projucer
 dev-libs/mustach:jansson - Build dev-libs/jansson wrapper
 dev-libs/mustach:json-c - Build dev-libs/json-c wrapper
 dev-libs/mustach:tool - Build the command line tool
@@ -18,7 +15,6 @@ games-rpg/tuxemon:rumble - Enable rumble support
 media-plugins/bslizr:uwu - Enable UwU skin
 media-plugins/geonkick:lv2 - Build LV2 plug-in
 media-plugins/geonkick:standalone - Build standalone application
-media-plugins/geonkick:vst3 - Build VST3 plug-in
 media-plugins/obs-wlrobs:dmabuf - Use the dmabuf backend
 media-plugins/obs-wlrobs:scpy - Use the scpy backend
 media-plugins/wolf-shaper:clap - Enable building of CLAP plugin
