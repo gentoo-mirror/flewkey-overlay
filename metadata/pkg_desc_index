@@ -22,7 +22,7 @@ dev-python/libversion 1.2.4 9999: Python bindings for libversion
 dev-python/markdown-captions 2.1.2 9999: Image captions for python-markdown
 dev-python/neteria 1.0.2 9999: Open source game networking framework for Python
 dev-python/pygame-menu 4.4.3 9999: A pygame library for menus and GUIs
-dev-python/pyglm 2.6.0 2.7.0 9999: Fast OpenGL Mathematics
+dev-python/pyglm 2.6.0 2.7.0 2.7.1 9999: Fast OpenGL Mathematics
 dev-python/pypandoc 1.9 1.11 1.12 9999: Thin wrapper for pandoc
 dev-python/pypresence 4.2.1 4.3.0 9999: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.30 2.31 9999: Animated scrolling maps for Pygame
@@ -39,7 +39,7 @@ games-rpg/tuxemon 0.4.34 9999: Open source monster-fighting RPG
 gui-libs/libdecor 0.1.0 0.1.1 0.2.0 9999: A client-side decorations library for Wayland clients
 media-gfx/opentoonz 1.7.1 9999: An open-source full-featured 2D animation creation software
 media-libs/libaudec 0.3.4 9999: A library for reading and resampling audio files
-media-libs/lsp-dsp-lib 1.0.18: Optimized DSP library
+media-libs/lsp-dsp-lib 1.0.18 1.0.19: Optimized DSP library
 media-libs/pyliblo 0.10.0: A Python wrapper for the liblo OSC library
 media-libs/soundpipe 9999: A lightweight music DSP library
 media-plugins/airwindows-lv2 24.0 9999: A port of Airwindows plugins to LV2
