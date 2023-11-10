@@ -8,5 +8,5 @@ IUSE=doc
 LICENSE=ZLIB
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=8e33eaf7d8dbfb5e805fab533dd3ef49
