@@ -10,5 +10,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=media-libs/lv2 x11-libs/libX11 x11-libs/cairo[X]
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=5c2a026114a25baa9153aec2e14e4433
