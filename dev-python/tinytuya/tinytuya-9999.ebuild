@@ -24,7 +24,8 @@ SLOT="0"
 DEPEND=""
 RDEPEND="
 	${DEPEND}
-	dev-python/pycryptodome
+	dev-python/colorama
+	dev-python/cryptography
 	dev-python/requests
 "
 BDEPEND=""
