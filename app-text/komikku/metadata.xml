@@ -6,6 +6,7 @@
 		<name>Ryan Fox</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="codeberg">valos/Komikku</remote-id>
 		<remote-id type="gitlab">valos/Komikku</remote-id>
 	</upstream>
 </pkgmetadata>
