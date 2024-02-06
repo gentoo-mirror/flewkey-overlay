@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,4 +26,4 @@ DEPEND="
 	x11-libs/pango
 "
 RDEPEND="${DEPEND}"
-BDEPEND=">=dev-util/meson-0.47"
+BDEPEND=">=dev-build/meson-0.49.0"
