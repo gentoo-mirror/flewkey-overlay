@@ -1,9 +1,9 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{9..12} )
 PYTHON_REQ_USE="threads(+)"
 
 inherit git-r3 python-single-r1 waf-utils
@@ -16,9 +16,7 @@ LICENSE="Apache-2.0"
 SLOT="0"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-DEPEND=""
 RDEPEND="${PYTHON_DEPS}"
-BDEPEND=""
 
 src_prepare() {
 	default
