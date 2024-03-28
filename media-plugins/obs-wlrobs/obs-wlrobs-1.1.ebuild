@@ -28,10 +28,7 @@ DEPEND="
 	dmabuf? ( x11-libs/libdrm )
 "
 RDEPEND="${DEPEND}"
-BDEPEND="
-	virtual/pkgconfig
-	dev-util/meson
-"
+BDEPEND="virtual/pkgconfig"
 
 src_configure() {
 	local emesonargs=(
