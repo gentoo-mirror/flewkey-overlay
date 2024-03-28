@@ -1,0 +1,71 @@
+From 1950c68edf5138f36b7abaf47548c5ace7c71644 Mon Sep 17 00:00:00 2001
+From: falkTX <falktx@falktx.com>
+Date: Thu, 7 Mar 2024 10:10:56 +0100
+Subject: [PATCH] Adjust for liblo API breakage, dont define lo_message type
+
+Signed-off-by: falkTX <falktx@falktx.com>
+---
+ source/backend/CarlaPlugin.hpp                  | 3 +--
+ source/backend/plugin/CarlaPlugin.cpp           | 2 +-
+ source/backend/plugin/CarlaPluginLADSPADSSI.cpp | 6 +++---
+ 3 files changed, 5 insertions(+), 6 deletions(-)
+
+diff --git a/source/backend/CarlaPlugin.hpp b/source/backend/CarlaPlugin.hpp
+index fe581bcfe0..04026e0809 100644
+--- a/source/backend/CarlaPlugin.hpp
++++ b/source/backend/CarlaPlugin.hpp
+@@ -24,7 +24,6 @@
+ // -----------------------------------------------------------------------
+ // Avoid including extra libs here
+ 
+-typedef void* lo_message;
+ typedef struct _NativePluginDescriptor NativePluginDescriptor;
+ struct LADSPA_RDF_Descriptor;
+ 
+@@ -774,7 +773,7 @@ class CARLA_API CarlaPlugin
+                                   int argc,
+                                   const void* argv,
+                                   const char* types,
+-                                  lo_message msg);
++                                  void* msg);
+ 
+     // -------------------------------------------------------------------
+     // MIDI events
+diff --git a/source/backend/plugin/CarlaPlugin.cpp b/source/backend/plugin/CarlaPlugin.cpp
+index 58eae89635..fcc2f3ecc7 100644
+--- a/source/backend/plugin/CarlaPlugin.cpp
++++ b/source/backend/plugin/CarlaPlugin.cpp
+@@ -2350,7 +2350,7 @@ void CarlaPlugin::clearBuffers() noexcept
+ // OSC stuff
+ 
+ // FIXME
+-void CarlaPlugin::handleOscMessage(const char* const, const int, const void* const, const char* const, const lo_message)
++void CarlaPlugin::handleOscMessage(const char*, int, const void*, const char*, void*)
+ {
+     // do nothing
+ }
+diff --git a/source/backend/plugin/CarlaPluginLADSPADSSI.cpp b/source/backend/plugin/CarlaPluginLADSPADSSI.cpp
+index b24224fec3..bcc04ad57d 100644
+--- a/source/backend/plugin/CarlaPluginLADSPADSSI.cpp
++++ b/source/backend/plugin/CarlaPluginLADSPADSSI.cpp
+@@ -2395,9 +2395,9 @@ class CarlaPluginLADSPADSSI : public CarlaPlugin
+     // -------------------------------------------------------------------
+     // OSC stuff
+ 
+-    void handleOscMessage(const char* const method, const int argc, const void* const argvx, const char* const types, const lo_message msg) override
++    void handleOscMessage(const char* const method, const int argc, const void* const argvx, const char* const types, void* const msg) override
+     {
+-        const lo_address source(lo_message_get_source(msg));
++        const lo_address source = lo_message_get_source(static_cast<lo_message>(msg));
+         CARLA_SAFE_ASSERT_RETURN(source != nullptr,);
+ 
+         // protocol for DSSI UIs *must* be UDP
+@@ -2432,7 +2432,7 @@ class CarlaPluginLADSPADSSI : public CarlaPlugin
+         if (std::strcmp(method, "midi") == 0)
+             return handleOscMessageMIDI(argc, argv, types);
+         if (std::strcmp(method, "update") == 0)
+-            return handleOscMessageUpdate(argc, argv, types, lo_message_get_source(msg));
++            return handleOscMessageUpdate(argc, argv, types, source);
+         if (std::strcmp(method, "exiting") == 0)
+             return handleOscMessageExiting();
+ 
