@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=json-c? ( dev-libs/json-c ) jansson? ( dev-libs/jansson )
 REQUIRED_USE=tool? ( || ( json-c jansson ) )
 SLOT=0
-_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
 _md5_=e3ffbc133d2411d5fd55b8fe5eb253f3
