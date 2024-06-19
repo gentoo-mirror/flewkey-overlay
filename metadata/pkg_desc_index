@@ -14,7 +14,6 @@ dev-libs/reproc 14.2.4 9999: A library for dealing with external processes
 dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
 dev-libs/zix 9999: A C data structures library
 dev-python/bashlex 0.17 0.18 9999: Python parser for bash
-dev-python/colorthief 0.2.1 9999: A module for grabbing the color palette from an image.
 dev-python/dateparser 1.2.0 9999: Date parsing library
 dev-python/ffpyplayer 4.5.1 9999: Python bindings for the FFmpeg media player
 dev-python/gpxpy 1.5.0 1.6.1 9999: GPX file parser and GPS track manipulation library
@@ -39,14 +38,12 @@ games-rpg/tuxemon 0.4.34 9999: Open source monster-fighting RPG
 gui-libs/libdecor 0.2.2 9999: A client-side decorations library for Wayland clients
 media-gfx/opentoonz 1.7.1 9999: An open-source full-featured 2D animation creation software
 media-libs/lsp-dsp-lib 1.0.18 1.0.19 1.0.20: Optimized DSP library
-media-libs/pyliblo 0.10.0: A Python wrapper for the liblo OSC library
 media-libs/soundpipe 9999: A lightweight music DSP library
 media-plugins/airwindows-lv2 24.0 26.2 28.0 9999: A port of Airwindows plugins to LV2
 media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
 media-plugins/bslizr 1.2.14 1.2.16 9999: Sequenced audio slicing effect LV2 plugin
 media-plugins/dragonfly-reverb 3.2.8 3.2.9 3.2.10 9999: A set of free reverb effects
-media-plugins/eq10q 2.2: Audio plugin bundle over the LV2 standard for Linux
 media-plugins/geonkick 3.3.2 3.4.0: A free software percussion synthesizer
 media-plugins/obs-tuna 9999: OBS song information plugin
 media-plugins/obs-wlrobs 1.1 9999: Allows screen capture on wlroots-based Wayland compositors
@@ -60,8 +57,6 @@ media-sound/csoundqt 1.1.1 9999: The default frontend for Csound
 media-sound/klystrack 1.7.6 9999: A really cool fakebit tracker
 net-libs/libexosip2 5.3.0: The best abstraction layer over SIP. Period.
 net-libs/libosip2 5.3.0: A simple way to support the Session Initiation Protocol
-net-wireless/artemis 3.2.4 9999: Radio Signals Recognition Manual
-sci-visualization/plots 0.8.4 0.8.5 9999: Graph plotting app for GNOME
 x11-drivers/displaylink-driver 5.6.1.59.184 5.7.0.61.129 5.8.0.63.33: Driver for modern DisplayLink devices
 x11-drivers/evdi 1.14.1 1.14.2 9999: Kernel module for managing screens
 x11-libs/libevdi 1.14.1 1.14.2 9999: Library for managing screens

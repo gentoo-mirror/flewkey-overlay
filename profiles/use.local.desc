@@ -22,7 +22,6 @@ media-plugins/wolf-shaper:dssi - Enable building of DSSI plugin
 media-plugins/wolf-shaper:lv2 - Enable building of LV2 plugin
 media-plugins/wolf-shaper:vst2 - Enable building of VST2 plugin
 media-plugins/wolf-shaper:vst3 - Enable building of VST3 plugin
-media-sound/carla:gtk2 - Use gtk-2 instead of gtk-3
 media-sound/carla:rdf - Enable LADSPA-RDF support
 media-sound/carla:sf2 - Enable builtin SF2 sample support using media-sound/fluidsynth
 net-libs/libexosip2:srv - Enable SRV record lookups
