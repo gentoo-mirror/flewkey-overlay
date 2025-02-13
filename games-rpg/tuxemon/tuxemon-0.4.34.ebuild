@@ -1,10 +1,10 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{11..13} )
 
 inherit distutils-r1
 
@@ -26,7 +26,7 @@ SLOT="0"
 IUSE="+rumble"
 RESTRICT="test"
 
-DEPEND="dev-python/Babel"
+DEPEND="dev-python/babel"
 RDEPEND="
 	${DEPEND}
 	dev-python/natsort[${PYTHON_USEDEP}]
@@ -42,7 +42,6 @@ RDEPEND="
 	dev-python/neteria[${PYTHON_USEDEP}]
 	rumble? ( dev-libs/libshake )
 "
-BDEPEND=""
 
 src_prepare() {
 	sed -i "s/\/user\/share/\/usr\/share/" "${S}/tuxemon/constants/paths.py"
@@ -54,5 +53,3 @@ src_install() {
 	dodir /usr/share/tuxemon
 	cp -r "${S}/mods" "${D}/usr/share/tuxemon"
 }
-
-#distutils_enable_tests unittest
