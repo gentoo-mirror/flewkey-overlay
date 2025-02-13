@@ -1,35 +1,34 @@
 app-editors/apostrophe 2.6.3 9999: A distraction free Markdown editor
 app-emulation/cemu 1.3 9999: TI-84 Plus CE emulator
 app-emulation/x16-emulator 41 9999: Emulator for the Commander X16 computer
-app-i18n/dialect 2.1.1 2.2.0 9999: Mastodon client, previously known as Tooth
+app-i18n/dialect 2.1.1 2.2.0 2.5.0 9999: A translation app for GNOME.
 dev-embedded/cc65 2.19 9999: A C compiler for 6502-based systems
 dev-embedded/sunxi-tools 1.4.2 9999: Tools for Allwinner A10 devices
-dev-libs/clearsilver 0.11.0 9999: Clearsilver HTML templating system
-dev-libs/libcyaml 1.3.1 1.4.0 1.4.1 9999: C library for reading and writing YAML
+dev-libs/libcyaml 1.3.1 1.4.0 1.4.1 1.4.2 9999: C library for reading and writing YAML
 dev-libs/libscfg 9999: C library for the scfg configuration format
 dev-libs/libshake 0.3.2 9999: Simple, cross-platform haptic library.
 dev-libs/libversion 3.0.3 9999: Advanced version string comparison library
-dev-libs/mustach 1.2.5 1.2.6 9999: C implementation of mustache templating
+dev-libs/mustach 1.2.5 1.2.6 1.2.10 9999: C implementation of mustache templating
 dev-libs/reproc 14.2.4 9999: A library for dealing with external processes
 dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
 dev-libs/zix 9999: A C data structures library
 dev-python/bashlex 0.17 0.18 9999: Python parser for bash
-dev-python/dateparser 1.2.0 9999: Date parsing library
+dev-python/dateparser 1.2.1 9999: Date parsing library
 dev-python/ffpyplayer 4.5.1 9999: Python bindings for the FFmpeg media player
 dev-python/gpxpy 1.5.0 1.6.1 9999: GPX file parser and GPS track manipulation library
-dev-python/gtts 2.4.0 9999: Python library for Google's text-to-speech
+dev-python/gtts 2.4.0 2.5.4 9999: Python library for Google's text-to-speech
 dev-python/libversion 1.2.4 9999: Python bindings for libversion
 dev-python/markdown-captions 2.1.2 9999: Image captions for python-markdown
 dev-python/neteria 1.0.2 9999: Open source game networking framework for Python
-dev-python/pygame-menu 4.4.3 9999: A pygame library for menus and GUIs
+dev-python/pygame-menu 4.5.1 9999: A pygame library for menus and GUIs
 dev-python/pyglm 2.6.0 2.7.0 2.7.1 9999: Fast OpenGL Mathematics
 dev-python/pypandoc 1.9 1.11 1.12 9999: Thin wrapper for pandoc
 dev-python/pypresence 4.2.1 4.3.0 9999: Discord IPC and Rich Presence wrapper for Python
 dev-python/pyscroll 2.30 2.31 9999: Animated scrolling maps for Pygame
-dev-python/pytmx 3.31 3.32 9999: Python library to read Tiled Map Editor's TMX maps
+dev-python/pytmx 3.32 9999: Python library to read Tiled Map Editor's TMX maps
 dev-python/pyvoip 1.6.4 1.6.5 9999: Python SIP/RTP library
-dev-python/sounddevice 0.4.5 0.4.6 9999: PortAudio bindings for Python
-dev-python/soundfile 0.12.1 9999: An audio library for Python
+dev-python/sounddevice 0.5.1 9999: PortAudio bindings for Python
+dev-python/soundfile 0.12.1 0.13.1 9999: An audio library for Python
 dev-python/soxr 0.3.7 9999: Resampling library for Python
 dev-python/tinytuya 1.13.1 1.13.2 9999: Python API for Tuya devices
 dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
@@ -37,22 +36,22 @@ dev-util/ndstool 2.2.0 9999: Nintendo DS ROM tool
 games-rpg/tuxemon 0.4.34 9999: Open source monster-fighting RPG
 gui-libs/libdecor 0.2.2 9999: A client-side decorations library for Wayland clients
 media-gfx/opentoonz 1.7.1 9999: An open-source full-featured 2D animation creation software
-media-libs/lsp-dsp-lib 1.0.18 1.0.19 1.0.20: Optimized DSP library
+media-libs/lsp-dsp-lib 1.0.18 1.0.19 1.0.20 1.0.28: Optimized DSP library
 media-libs/soundpipe 9999: A lightweight music DSP library
-media-plugins/airwindows-lv2 24.0 26.2 28.0 9999: A port of Airwindows plugins to LV2
+media-plugins/airwindows-lv2 30.0 9999: A port of Airwindows plugins to LV2
 media-plugins/bitrot 9999: Audio effect plugins (LV2, VST2, LADSPA) for glitch effects
 media-plugins/bolliedelayxt-lv2 9999: An LV2 delay plugin, superseding bolliedelay.lv2
 media-plugins/bslizr 1.2.14 1.2.16 9999: Sequenced audio slicing effect LV2 plugin
 media-plugins/dragonfly-reverb 3.2.8 3.2.9 3.2.10 9999: A set of free reverb effects
-media-plugins/geonkick 3.3.2 3.4.0: A free software percussion synthesizer
+media-plugins/geonkick 3.3.2 3.4.0 3.5.2: A free software percussion synthesizer
 media-plugins/obs-tuna 9999: OBS song information plugin
 media-plugins/obs-wlrobs 1.1 9999: Allows screen capture on wlroots-based Wayland compositors
 media-plugins/odin2 2.3.4: A 24-voice polyphonic synthesizer
 media-plugins/remid 0.3 9999: A free software percussion synthesizer
 media-plugins/tap-plugins 1.0.1 9999: Tom's Audio Processing LADSPA plugins
 media-plugins/wolf-shaper 1.0.1 1.0.2 9999: Waveshaper plugin w/ spline-based graph editor
-media-plugins/zplugins 0.2.6 9999: A collection of audio DSP plugins
-media-sound/carla 2.5.8 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
+media-plugins/zplugins 0.2.6 0.2.7 9999: A collection of audio DSP plugins
+media-sound/carla 2.5.9 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/csoundqt 1.1.1 9999: The default frontend for Csound
 media-sound/klystrack 1.7.6 9999: A really cool fakebit tracker
 net-libs/libexosip2 5.3.0: The best abstraction layer over SIP. Period.

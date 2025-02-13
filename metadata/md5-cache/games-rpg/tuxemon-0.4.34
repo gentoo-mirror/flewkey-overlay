@@ -1,17 +1,17 @@
-BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/setuptools-69.0.3[python_targets_python3_10(-)?,python_targets_python3_11(-)?]
+BDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-15[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/setuptools-69.0.3[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?]
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-python/Babel
+DEPEND=dev-python/babel
 DESCRIPTION=Open source monster-fighting RPG
 EAPI=8
 HOMEPAGE=https://www.tuxemon.org/
 INHERIT=distutils-r1
-IUSE=+rumble python_targets_python3_10 python_targets_python3_11
+IUSE=+rumble python_targets_python3_11 python_targets_python3_12 python_targets_python3_13
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=dev-python/Babel dev-python/natsort[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/pillow[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/requests[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/prompt-toolkit[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pydantic-1.9.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pygame-2.1.2[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pygame-menu-4.2.8[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pytmx-3.31[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pyscroll-2.30[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/pyyaml[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/neteria[python_targets_python3_10(-)?,python_targets_python3_11(-)?] rumble? ( dev-libs/libshake ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
-REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
+RDEPEND=dev-python/babel dev-python/natsort[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] dev-python/pillow[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] dev-python/requests[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] dev-python/prompt-toolkit[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/pydantic-1.9.1[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/pygame-2.1.2[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/pygame-menu-4.2.8[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/pytmx-3.31[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/pyscroll-2.30[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] dev-python/pyyaml[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] dev-python/neteria[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] rumble? ( dev-libs/libshake ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 )
+REQUIRED_USE=|| ( python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/Tuxemon/Tuxemon/archive/v0.4.34.tar.gz -> tuxemon-0.4.34.gh.tar.gz
 _eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	42c5abe4a656a4993a06a4fc61dbdd12	python-r1	2def7a4ce233dfa344f613025c619a23	distutils-r1	85ccd3b54a6533fb120ee52b7c76a3df
-_md5_=ab041daf12b6fccd13722fd5e5c9ff4a
+_md5_=ee7b4e6d849f03d5616915a01dc53d1c

@@ -4,10 +4,6 @@
 
 app-emulation/x16-emulator:rom - Build the x16-rom
 dev-embedded/sunxi-tools:extra - Build and install extra tools
-dev-libs/clearsilver:apache - Build Apache 1.3.x module
-dev-libs/clearsilver:compression - Enable HTML compression support
-dev-libs/clearsilver:csharp - Build the C# module
-dev-libs/clearsilver:gettext - Enable gettext message translation
 dev-libs/mustach:jansson - Build dev-libs/jansson wrapper
 dev-libs/mustach:json-c - Build dev-libs/json-c wrapper
 dev-libs/mustach:tool - Build the command line tool
