@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{11..13} )
 
 inherit distutils-r1
 
@@ -26,7 +26,7 @@ SLOT="0"
 IUSE="+rumble"
 RESTRICT="test"
 
-DEPEND="dev-python/Babel"
+DEPEND="dev-python/babel"
 RDEPEND="
 	${DEPEND}
 	dev-python/natsort[${PYTHON_USEDEP}]
@@ -36,13 +36,12 @@ RDEPEND="
 	>=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	>=dev-python/pygame-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/pygame-menu-4.2.8[${PYTHON_USEDEP}]
-	>=dev-python/pytmx-3.31[${PYTHON_USEDEP}]
+	>=dev-python/pytmx-3.32[${PYTHON_USEDEP}]
 	>=dev-python/pyscroll-2.30[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/neteria[${PYTHON_USEDEP}]
 	rumble? ( dev-libs/libshake )
 "
-BDEPEND=""
 
 src_prepare() {
 	sed -i "s/\/user\/share/\/usr\/share/" "${S}/tuxemon/constants/paths.py"
@@ -54,5 +53,3 @@ src_install() {
 	dodir /usr/share/tuxemon
 	cp -r "${S}/mods" "${D}/usr/share/tuxemon"
 }
-
-#distutils_enable_tests unittest
