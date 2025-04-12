@@ -11,5 +11,5 @@ LICENSE=DisplayLink-EULA
 RDEPEND=virtual/libusb virtual/udev x11-libs/libevdi
 SLOT=0
 SRC_URI=https://www.synaptics.com/sites/default/files/exe_files/2023-04/DisplayLink%20USB%20Graphics%20Software%20for%20Ubuntu5.7-EXE.zip -> displaylink-driver-5.7.0.61.129.zip
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	udev	f3d9a4376ebd22131726a68e1a0a058f	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	udev	f3d9a4376ebd22131726a68e1a0a058f	systemd	54bd206bb5c4efac6ae28b6b006713b0
 _md5_=9a19c232ede847f120b915b9eccea30c
