@@ -30,7 +30,7 @@ dev-python/pyvoip 1.6.4 1.6.5 9999: Python SIP/RTP library
 dev-python/sounddevice 0.5.1 9999: PortAudio bindings for Python
 dev-python/soundfile 0.12.1 0.13.1 9999: An audio library for Python
 dev-python/soxr 0.3.7 9999: Resampling library for Python
-dev-python/tinytuya 1.13.1 1.13.2 9999: Python API for Tuya devices
+dev-python/tinytuya 1.13.1 1.13.2 1.16.2 1.17.0 9999: Python API for Tuya devices
 dev-python/webrtcvad 2.0.10 9999: Python interface to the WebRTC Voice Activity Detector
 dev-util/ndstool 2.2.0 9999: Nintendo DS ROM tool
 games-rpg/tuxemon 0.4.34 9999: Open source monster-fighting RPG
