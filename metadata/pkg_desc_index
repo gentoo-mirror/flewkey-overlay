@@ -14,10 +14,8 @@ dev-libs/streamhtmlparser 0.1: Scan an HTML stream and provide context
 dev-libs/zix 9999: A C data structures library
 dev-python/bashlex 0.17 0.18 9999: Python parser for bash
 dev-python/dateparser 1.2.1 9999: Date parsing library
-dev-python/ffpyplayer 4.5.1 9999: Python bindings for the FFmpeg media player
 dev-python/gpxpy 1.5.0 1.6.1 9999: GPX file parser and GPS track manipulation library
 dev-python/gtts 2.4.0 2.5.4 9999: Python library for Google's text-to-speech
-dev-python/libversion 1.2.4 9999: Python bindings for libversion
 dev-python/markdown-captions 2.1.2 9999: Image captions for python-markdown
 dev-python/neteria 1.0.2 9999: Open source game networking framework for Python
 dev-python/pygame-menu 4.5.1 9999: A pygame library for menus and GUIs
